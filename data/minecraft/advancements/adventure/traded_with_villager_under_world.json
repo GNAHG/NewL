@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "item": "emerald"
+        },
+        "title": "\u5730\u5e9c\u5546\u4eba",
+        "description": "\u5728\u4e16\u754c\u6700\u4f4e\u5904\u4e0e\u6751\u6c11\u5b8c\u6210\u4e00\u6b21\u4ea4\u6613",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/trade_at_world_height",
+    "criteria": {
+        "traded_with_villager_under_world": {
+            "conditions": {
+                "player": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "location": {
+                        "position": {
+                          "y": {
+                            "max": -58
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "trigger": "minecraft:villager_trade"
+        }
+    },
+    "requirements": [
+        [
+            "traded_with_villager_under_world"
+        ]
+    ]
+}

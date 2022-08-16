@@ -1,0 +1,60 @@
+{
+    "display": {
+        "icon": {
+            "item": "diamond_axe"
+        },
+        "title": "\u662f\u6211\u8d62\u4e86",
+        "description": "\u534a\u9897\u5fc3\u7684\u60c5\u51b5\u4e0b\u51fb\u6740\u732a\u7075\u86ee\u5175\u6216\u536b\u9053\u58eb\n\u5728\u6fd2\u6b7b\u65f6\u6253\u8d25\u5f3a\u5927\u7684\u5bf9\u624b",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/kill_a_mob",
+    "criteria": {
+        "kill_piglin_brute_or_vindicator_piglin_brute": {
+            "conditions": {
+                "entity": {
+                    "type": "piglin_brute"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health": {
+                                "max": 1
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_piglin_brute_or_vindicator_vindicator": {
+            "conditions": {
+                "entity": {
+                    "type": "vindicator"
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "health": {
+                                "max": 1
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "kill_piglin_brute_or_vindicator_piglin_brute",
+            "kill_piglin_brute_or_vindicator_vindicator"
+        ]
+    ]
+}

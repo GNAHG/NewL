@@ -1,0 +1,118 @@
+{
+    "display": {
+        "icon": {
+            "item": "leather_helmet",
+            "nbt": "{display:{color:0}}"
+        },
+        "title": "\u95f4\u8c0d\u8fc7\u5bb6\u5bb6",
+        "description": "\u5c06\u6240\u6709\u79cd\u7c7b\u7684\u4e0b\u5c4a\u751f\u7269\u5e26\u5230\u4e3b\u4e16\u754c\u2026\u5e76\u51fb\u8d25\u4ed6\u4eec",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "nether/uneasy_alliance",
+    "criteria": {
+        "kill_zombified_piglin": {
+            "conditions": {
+                "entity": {
+                    "type": "zombified_piglin"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_ghast": {
+            "conditions": {
+                "entity": {
+                    "type": "ghast"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_magma_cube": {
+            "conditions": {
+                "entity": {
+                    "type": "magma_cube"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_blaze": {
+            "conditions": {
+                "entity": {
+                    "type": "blaze"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_wither_skeleton": {
+            "conditions": {
+                "entity": {
+                    "type": "wither_skeleton"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_hoglin": {
+            "conditions": {
+                "entity": {
+                    "type": "hoglin"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_piglin": {
+            "conditions": {
+                "entity": {
+                    "type": "piglin"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_piglin_brute": {
+            "conditions": {
+                "entity": {
+                    "type": "piglin_brute"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_strider": {
+            "conditions": {
+                "entity": {
+                    "type": "strider"
+                }
+            },
+            "trigger": "player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "kill_zombified_piglin"
+        ],
+        [
+            "kill_ghast"
+        ],
+        [
+            "kill_magma_cube"
+        ],
+        [
+            "kill_blaze"
+        ],
+        [
+            "kill_wither_skeleton"
+        ],
+        [
+            "kill_hoglin"
+        ],
+        [
+            "kill_piglin"
+        ],
+        [
+            "kill_piglin_brute"
+        ],
+        [
+            "kill_strider"
+        ]
+    ]
+}

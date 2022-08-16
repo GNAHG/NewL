@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crafting_table"
+        },
+        "title": "\u4e07\u7269\u8d77\u6e90",
+        "description": "\u521b\u9020\u65e0\u9650\u53ef\u80fd",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "story/root",
+    "criteria": {
+        "crafting": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "crafting_table"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "crafting"
+        ]
+    ]
+}

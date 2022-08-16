@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "feather"
+        },
+        "title": "\u4e0b\u9762\u7684\u98ce\u666f\u4e5f\u5f88\u597d\uff01",
+        "description": "\u5728\u5e26\u6709\u7f13\u964d\u6548\u679c\u7684\u60c5\u51b5\u4e0b\u4e0b\u964d50\u683c",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "end/levitate",
+    "criteria": {
+        "fall_50": {
+            "conditions": {
+                "distance": {
+                    "absolute": {
+                        "min": 50
+                    }
+                }e
+            },
+            "trigger": "fall_from_height"
+        }
+    },
+    "requirements": [
+        [
+            "fall_50"
+        ]
+    ]
+}

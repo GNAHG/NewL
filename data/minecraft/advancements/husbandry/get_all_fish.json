@@ -1,0 +1,108 @@
+{
+    "display": {
+        "icon": {
+            "item": "cod_bucket"
+        },
+        "title": "\u6700\u4f73\u6355\u9c7c\u8005",
+        "description": "\u96c6\u9f50\u6240\u6709\u9c7c\u6876\uff0c\u5305\u62ec\u7f8e\u897f\u8788\u548c\u874c\u86aa",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "husbandry/tactical_fishing",
+    "criteria": {
+        "get_all_fish_cod_bucket": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "cod_bucket"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_fish_salmon_bucket": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "salmon_bucket"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_fish_pufferfish_bucket": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "pufferfish_bucket"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_fish_tropical_fish_bucket": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "tropical_fish_bucket"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_fish_axolotl_bucket": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "axolotl_bucket"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_fish_tadpole_bucket": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "tadpole_bucket"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "get_all_fish_cod_bucket"
+        ],
+        [
+            "get_all_fish_salmon_bucket"
+        ],
+        [
+            "get_all_fish_pufferfish_bucket"
+        ],
+        [
+            "get_all_fish_tropical_fish_bucket"
+        ],
+        [
+            "get_all_fish_axolotl_bucket"
+        ],
+        [
+            "get_all_fish_tadpole_bucket"
+        ]
+    ]
+}

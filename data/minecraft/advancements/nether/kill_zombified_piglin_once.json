@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "item": "iron_sword"
+        },
+        "title": "\u523a\u5ba2\u4fe1\u6761",
+        "description": "\u6740\u6b7b\u4e00\u53ea\u50f5\u5c38\u732a\u7075\uff0c\u4e14\u4e0d\u6fc0\u6012\u5b83\u7684\u540c\u7c7b",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "nether/obtain_ancient_debris",
+    "criteria": {
+        "kill_zombified_piglin_once_hurt": {
+            "conditions": {
+                "entity": {
+                    "type": "zombified_piglin"
+                },
+                "damage": {
+                    "dealt": {
+                        "min": 20
+                    }
+                }
+            },
+            "trigger": "player_hurt_entity"
+        },
+        "kill_zombified_piglin_once_kill": {
+            "entity": {
+                "type": "zombified_piglin"
+            },
+            "trigger": "player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "kill_zombified_piglin_once_hurt"
+        ],
+        [
+            "kill_zombified_piglin_once_kill"
+        ]
+    ]
+}

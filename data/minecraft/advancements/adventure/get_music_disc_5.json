@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "music_disc_5"
+        },
+        "title": "\u6614\u65e5\u8363\u5149",
+        "description": "\u5230\u8fbe\u8fdc\u53e4\u57ce\u5e02\uff0c\u5e76\u627e\u5230\u6765\u81ea\u8fdc\u53e4\u7684\u5531\u7247",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/avoid_vibration",
+    "criteria": {
+        "get_music_disc_5": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "music_disc_5"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "get_music_disc_5"
+        ]
+    ]
+}

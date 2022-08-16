@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "spruce_planks"
+        },
+        "title": "\u4e2d\u79cb",
+        "description": "\u4e2d\u79cb\u6d3b\u52a8\u7684\u6210\u5c31~",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/spruce_planks.png"
+    },
+    "criteria": {
+        "zhongqiu": {
+            "trigger": "tick"
+        }
+    },
+    "requirements": [
+        [
+            "zhongqiu"
+        ]
+    ]
+}

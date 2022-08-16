@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:note_block"
+        },
+        "title": "\u8352\u829c\u4e4b\u58f0",
+        "description": "\u5728\u4e0b\u754c\u8352\u5730\u4e2d\u7528\u97f3\u7b26\u76d2\u72ec\u594f\u4e00\u66f2",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "nether/root",
+    "criteria": {
+        "note_block_in_nether_wastes": {
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:nether_wastes",
+                    "block": {
+                        "blocks": [
+                            "minecraft:note_block"
+                        ]
+                    }
+                }
+            },
+            "trigger": "minecraft:item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "note_block_in_nether_wastes"
+        ]
+    ]
+}

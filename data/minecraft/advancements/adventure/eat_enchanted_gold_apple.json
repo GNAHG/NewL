@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "enchanted_golden_apple"
+        },
+        "title": "\u541b\u4e34\u5929\u4e0b",
+        "description": "\u5403\u4e0b\u4e00\u4e2a\u9644\u9b54\u91d1\u82f9\u679c",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/totem_of_undying",
+    "criteria": {
+        "eat_enchanted_gold_apple": {
+            "conditions": {
+                "item": {
+                    "items": [
+                        "enchanted_golden_apple"
+                    ]
+                }
+            },
+            "trigger": "consume_item"
+        }
+    },
+    "requirements": [
+        [
+            "eat_enchanted_gold_apple"
+        ]
+    ]
+}

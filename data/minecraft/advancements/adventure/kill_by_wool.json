@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "white_wool"
+        },
+        "title": "\u4e0d\u662f\u5427\uff1f\u4f60\u597d\u8106\uff01",
+        "description": "\u7528\u7f8a\u6bdb\u64b8\u6b7b\u4e00\u4e2a\u4eba\n\uff08\u73b0\u5b9e\u4e2d\u8fd9\u51e0\u4e4e\u6b7b\u4e0d\u4e86\uff09",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/kill_a_mob",
+    "criteria": {
+        "kill_by_wool": {
+            "conditions": {
+                "entity": {
+                    "type": "player"
+                },
+                "player": {"equipment": {"mainhand": {"tag": "wool"}}}
+            },
+            "trigger": "player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "kill_by_wool"
+        ]
+    ]
+}

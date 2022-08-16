@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "emerald",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "\u8170\u7f20\u4e07\u8d2f",
+        "description": "\u5c06\u7eff\u5b9d\u77f3\u586b\u6ee1\u80cc\u5305",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/trade",
+    "criteria": {
+        "many_emerald": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "emerald": 2304
+                        }
+                    }
+                ]
+            },
+            "trigger": "location"
+        }
+    },
+    "requirements": [
+        [
+            "many_emerald"
+        ]
+    ]
+}
