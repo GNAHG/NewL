@@ -4,8 +4,8 @@
             "item": "netherite_ingot"
         },
         "title": "\u6316\u77ff\u8fbe\u4eba",
-        "description": "\u83b7\u5f97\u6240\u6709\u77ff\u77f3\u5757\n(\u8bb0\u5f97\u7d2b\u6c34\u6676\u5757\u548c\u77f3\u82f1\u5757\uff01)",
-        "frame": "task",
+        "description": "\u83b7\u5f97\u6240\u6709\u77ff\u77f3\u5757\n(\u8bb0\u5f97\u7d2b\u6c34\u6676\u5757\u548c\u77f3\u82f1\u5757\uff01)\nBy iceland2418896",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false

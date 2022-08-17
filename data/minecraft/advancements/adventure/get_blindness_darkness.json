@@ -5,8 +5,8 @@
             "nbt": "{CustomPotionColor:6579300}"
         },
         "title": "\u4e24\u773c\u4e00\u9ed1",
-        "description": "\u540c\u65f6\u83b7\u5f97\u9ed1\u6697\u4e0e\u5931\u660e\u6548\u679c",
-        "frame": "task",
+        "description": "\u540c\u65f6\u83b7\u5f97\u9ed1\u6697\u4e0e\u5931\u660e\u6548\u679c\nBy Po__xiao",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false

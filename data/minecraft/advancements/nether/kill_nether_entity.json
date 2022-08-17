@@ -5,8 +5,8 @@
             "nbt": "{display:{color:0}}"
         },
         "title": "\u95f4\u8c0d\u8fc7\u5bb6\u5bb6",
-        "description": "\u5c06\u6240\u6709\u79cd\u7c7b\u7684\u4e0b\u5c4a\u751f\u7269\u5e26\u5230\u4e3b\u4e16\u754c\u2026\u5e76\u51fb\u8d25\u4ed6\u4eec",
-        "frame": "task",
+        "description": "\u5c06\u6240\u6709\u79cd\u7c7b\u7684\u4e0b\u5c4a\u751f\u7269\u5e26\u5230\u4e3b\u4e16\u754c\u2026\u5e76\u51fb\u8d25\u4ed6\u4eec\nBy bad",
+        "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false

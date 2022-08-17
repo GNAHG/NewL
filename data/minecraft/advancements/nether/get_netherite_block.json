@@ -4,8 +4,8 @@
             "item": "netherite_block"
         },
         "title": "\u8003\u53e4\u5b66\u4e13\u5bb6",
-        "description": "\u83b7\u5f97\u4e00\u4e2a\u4e0b\u5c4a\u5408\u91d1\u5757",
-        "frame": "task",
+        "description": "\u83b7\u5f97\u4e00\u4e2a\u4e0b\u5c4a\u5408\u91d1\u5757\nBy bad",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false

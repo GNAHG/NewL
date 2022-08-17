@@ -4,7 +4,7 @@
             "item": "magma_block"
         },
         "title": "\u51b0\u706b\u4e24\u91cd",
-        "description": "\u540c\u65f6\u624b\u6301\u51b0\u5757\u548c\u5ca9\u6d46\u5757",
+        "description": "\u540c\u65f6\u624b\u6301\u51b0\u5757\u548c\u5ca9\u6d46\u5757\nBy Po__xiao",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

@@ -4,8 +4,8 @@
             "item": "poppy"
         },
         "title": "\u4f60\u4e0d\u8fc7\u654f\u5417\uff1f",
-        "description": "\u6536\u96c6\u6240\u6709\u7684\u82b1",
-        "frame": "task",
+        "description": "\u6536\u96c6\u6240\u6709\u7684\u82b1\nBy \u6012\u5bfc(Angrydirector64)",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false

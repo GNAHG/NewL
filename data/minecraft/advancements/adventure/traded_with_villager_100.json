@@ -4,8 +4,8 @@
             "item": "emerald_block"
         },
         "title": "\u4ea4\u6613\u5927\u5e08",
-        "description": "\u4e0e\u6751\u6c11\u4ea4\u6613100\u6b21",
-        "frame": "task",
+        "description": "\u4e0e\u6751\u6c11\u4ea4\u6613100\u6b21\nBy xiaobaiya54188",
+        "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false

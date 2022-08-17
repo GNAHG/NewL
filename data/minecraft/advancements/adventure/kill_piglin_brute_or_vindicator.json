@@ -4,8 +4,8 @@
             "item": "diamond_axe"
         },
         "title": "\u662f\u6211\u8d62\u4e86",
-        "description": "\u534a\u9897\u5fc3\u7684\u60c5\u51b5\u4e0b\u51fb\u6740\u732a\u7075\u86ee\u5175\u6216\u536b\u9053\u58eb\n\u5728\u6fd2\u6b7b\u65f6\u6253\u8d25\u5f3a\u5927\u7684\u5bf9\u624b",
-        "frame": "task",
+        "description": "\u534a\u9897\u5fc3\u7684\u60c5\u51b5\u4e0b\u51fb\u6740\u732a\u7075\u86ee\u5175\u6216\u536b\u9053\u58eb\n\u5728\u6fd2\u6b7b\u65f6\u6253\u8d25\u5f3a\u5927\u7684\u5bf9\u624b\nBy Po__xiao",
+        "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false

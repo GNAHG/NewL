@@ -4,8 +4,8 @@
             "item": "potion"
         },
         "title": "\u6cd5\u5e08\u5bf9\u51b3",
-        "description": "\u7528\u836f\u6c34\u51fb\u8d25\u4e00\u540d\u5973\u5deb",
-        "frame": "task",
+        "description": "\u7528\u836f\u6c34\u51fb\u8d25\u4e00\u540d\u5973\u5deb\nBy Po__xiao",
+        "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false

@@ -5,8 +5,8 @@
             "nbt": "{Enchantments:[{}]}"
         },
         "title": "\u73b0\u5728\u8c01\u624d\u662f\u88ad\u51fb\u961f\u957f\uff1f",
-        "description": "\u7528/hat\u5e26\u4e0a\u707e\u5384\u65d7\u5e1c\u7684\u540c\u65f6\u7528\u5f29\u6740\u6b7b\u88ad\u51fb\u961f\u957f\u3002",
-        "frame": "task",
+        "description": "\u7528/hat\u5e26\u4e0a\u707e\u5384\u65d7\u5e1c\u7684\u540c\u65f6\u7528\u5f29\u6740\u6b7b\u88ad\u51fb\u961f\u957f\u3002\nBy siris",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false

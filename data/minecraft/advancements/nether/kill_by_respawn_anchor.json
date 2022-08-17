@@ -5,7 +5,7 @@
             "nbt": "{Enchantments:[{}]}"
         },
         "title": "\u201c\u91cd\u751f\u951a\u201d\uff1f",
-        "description": "\u7528\u91cd\u751f\u951a\u51fb\u8d25\u4f60\u81ea\u5df1",
+        "description": "\u7528\u91cd\u751f\u951a\u51fb\u8d25\u4f60\u81ea\u5df1\nBy bad",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

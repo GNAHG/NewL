@@ -4,8 +4,8 @@
             "item": "cod_bucket"
         },
         "title": "\u6700\u4f73\u6355\u9c7c\u8005",
-        "description": "\u96c6\u9f50\u6240\u6709\u9c7c\u6876\uff0c\u5305\u62ec\u7f8e\u897f\u8788\u548c\u874c\u86aa",
-        "frame": "task",
+        "description": "\u96c6\u9f50\u6240\u6709\u9c7c\u6876\uff0c\u5305\u62ec\u7f8e\u897f\u8788\u548c\u874c\u86aa\nBy iceland2418896",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false

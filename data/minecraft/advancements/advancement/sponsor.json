@@ -5,8 +5,8 @@
             "nbt": "{Enchantments:[{}]}"
         },
         "title": "\u8d5e\u52a9",
-        "description": "\u4f60\u662f\u4e2a\u597d\u4eba\uff01\n\u5d07\u9ad8\u65e0\u4e0a\u7684\u8d5e\u52a9\u8005\uff01",
-        "frame": "task",
+        "description": "\u4f60\u662f\u4e2a\u597d\u4eba\uff01\n\u5d07\u9ad8\u65e0\u4e0a\u7684\u8d5e\u52a9\u8005\uff01\nBy bad",
+        "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": true
