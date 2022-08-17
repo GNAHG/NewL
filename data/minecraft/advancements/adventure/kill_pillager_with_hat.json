@@ -11,7 +11,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "dventure/whos_the_pillager_now",
+    "parent": "adventure/whos_the_pillager_now",
     "criteria": {
         "kill_pillager_with_hat": {
             "conditions": {

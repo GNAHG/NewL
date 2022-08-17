@@ -4,7 +4,7 @@
             "item": "netherite_ingot"
         },
         "title": "\u6316\u77ff\u8fbe\u4eba",
-        "description": "\u83b7\u5f97\u6240\u6709\u77ff\u77f3\u5757\n(\u8bb0\u5f97\u7d2b\u6c34\u6676\u5757\u548c\u77f3\u82f1\u5757\uff01)\nBy iceland2418896",
+        "description": "\u83b7\u5f97\u6240\u6709\u77ff\u77f3\u5757\n(\u8bb0\u5f97\u7d2b\u6c34\u6676\u5757\u548c\u77f3\u82f1\u5757\uff0c\u540c\u65f6\u5305\u62ec\u7c97\u77ff\u5757\uff01)\nBy iceland2418896",
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
@@ -131,6 +131,42 @@
                 ]
             },
             "trigger": "inventory_changed"
+        },
+        "get_all_ore_raw_iron_block": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "raw_iron_block"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_ore_raw_gold_block": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "raw_gold_block"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_ore_raw_copper_block": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "raw_copper_block"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
         }
     },
     "requirements": [
@@ -163,6 +199,15 @@
         ],
         [
             "get_all_ore_amethyst_block"
+        ],
+        [
+            "get_all_ore_raw_copper_block"
+        ],
+        [
+            "get_all_ore_raw_gold_block"
+        ],
+        [
+            "get_all_ore_raw_iron_block"
         ]
     ]
 }
