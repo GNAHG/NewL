@@ -2,9 +2,9 @@
     "display": {
         "icon": {
             "item": "player_head",
-            "nbt": "{Count:1b,id:'minecraft:player_head',tag:{SkullOwner:{Id:[I;749958418,1213480072,-1578926099,-828558239],Name:'iceland2418896'}}}"
+            "nbt": "{SkullOwner:{Id:[I;749958418,1213480072,-1578926099,-828558239],Name:'iceland2418896'}}"
         },
-        "title": "\u8d21\u732e\u699c2",
+        "title": "\u8d21\u732e\u699c3",
         "description": "iceland2418896!",
         "frame": "task",
         "show_toast": false,
