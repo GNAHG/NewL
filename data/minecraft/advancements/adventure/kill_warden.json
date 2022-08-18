@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "sculk_shrieker"
+        },
+        "title": "\u89e3\u653e\u53e4\u57ce",
+        "description": "\u51fb\u8d25\u4e00\u4e2a\u76d1\u5b88\u8005\u2026\u6211\u4e0d\u786e\u5b9a\u4f1a\u4e0d\u4f1a\u51fa\u73b0\u66f4\u591a\nBy bad",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/get_music_disc_5",
+    "criteria": {
+        "kill_warden": {
+            "conditions": {
+                "entity": {
+                    "type": "warden"
+                }
+            },
+            "trigger": "player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "kill_warden"
+        ]
+    ]
+}

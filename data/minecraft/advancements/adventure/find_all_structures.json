@@ -1,0 +1,227 @@
+{
+    "display": {
+        "icon": {
+            "item": "compass",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "\u8d44\u6df1\u5192\u9669\u5bb6",
+        "description": "\u606d\u559c\u4f60\u5df2\u7ecf\u627e\u5230\u6240\u6709\u7684\u9057\u8ff9\uff01\u4f60\u5bf9\u4e16\u754c\u5df2\u7ecf\u65e0\u6240\u4e0d\u77e5\u3002\nBy Po__xiao",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/sleep_in_bed",
+    "criteria": {
+        "find_all_structures_desert_pyramid": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "desert_pyramid"
+                    }
+                }
+            },
+            "trigger": "location"
+        },
+        "find_all_structures_igloo": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "igloo"
+                    }
+                }
+            },
+            "trigger": "location"
+        },
+        "find_all_structures_jungle_pyramid": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "jungle_pyramid"
+                    }
+                }
+            },
+            "trigger": "location"
+        },
+        "find_all_structures_mineshaft": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "mineshaft"
+                    }
+                }
+            },
+            "trigger": "location"
+        },
+        "find_all_structures_monument": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "monument"
+                    }
+                }
+            },
+            "trigger": "location"
+        },
+        "find_all_structures_pillager_outpost": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "pillager_outpost"
+                    }
+                }
+            },
+            "trigger": "location"
+        },
+        "find_all_structures_shipwreck": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "shipwreck"
+                    }
+                }
+            },
+            "trigger": "location"
+        },
+        "find_all_structures_stronghold": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "stronghold"
+                    }
+                }
+            },
+            "trigger": "location"
+        },
+        "find_all_structures_swamp_hut": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "swamp_hut"
+                    }
+                }
+            },
+            "trigger": "location"
+        },
+        "find_all_structures_ocean_ruin": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "ocean_ruin"
+                    }
+                }
+            },
+            "trigger": "location"
+        },
+        "find_all_structures_village": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "village"
+                    }
+                }
+            },
+            "trigger": "location"
+        },
+        "find_all_structures_mansion": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "mansion"
+                    }
+                }
+            },
+            "trigger": "location"
+        },
+        "find_all_structures_end_city": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "end_city"
+                    }
+                }
+            },
+            "trigger": "location"
+        },
+        "find_all_structures_fortress": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "fortress"
+                    }
+                }
+            },
+            "trigger": "location"
+        },
+        "find_all_structures_ruined_portal": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "ruined_portal"
+                    }
+                }
+            },
+            "trigger": "location"
+        },
+        "find_all_structures_bastion_remnant": {
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "bastion_remnant"
+                    }
+                }
+            },
+            "trigger": "location"
+        }
+    },
+    "requirements": [
+        [
+            "find_all_structures_desert_pyramid"
+        ],
+        [
+            "find_all_structures_igloo"
+        ],
+        [
+            "find_all_structures_jungle_pyramid"
+        ],
+        [
+            "find_all_structures_mineshaft"
+        ],
+        [
+            "find_all_structures_monument"
+        ],
+        [
+            "find_all_structures_pillager_outpost"
+        ],
+        [
+            "find_all_structures_ruined_portal"
+        ],
+        [
+            "find_all_structures_shipwreck"
+        ],
+        [
+            "find_all_structures_stronghold"
+        ],
+        [
+            "find_all_structures_swamp_hut"
+        ],
+        [
+            "find_all_structures_ocean_ruin"
+        ],
+        [
+            "find_all_structures_village"
+        ],
+        [
+            "find_all_structures_mansion"
+        ],
+        [
+            "find_all_structures_end_city"
+        ],
+        [
+            "find_all_structures_fortress"
+        ],
+        [
+            "find_all_structures_bastion_remnant"
+        ]
+    ]
+}
