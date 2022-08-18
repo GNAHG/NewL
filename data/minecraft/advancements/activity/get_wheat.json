@@ -29,10 +29,5 @@
         [
             "get_wheat"
         ]
-    ],
-    "rewards": {
-        "recipes": [
-            "cmilib:26196b73-81a9-3e3c-b23f-bafce592d63a","cmilib:ae0d9194-5641-3fcc-b605-82046646424f"
-        ]
-    }
+    ]
 }

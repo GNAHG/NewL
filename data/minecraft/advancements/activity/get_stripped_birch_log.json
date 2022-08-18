@@ -29,11 +29,5 @@
         [
             "get_stripped_birch_log"
         ]
-    ],
-    "rewards": {
-        "recipes": [
-            "cmilib:d50c31af-0ca9-39c6-93b9-47378832360f",
-            "cmilib:02fcc417-bcd0-3efc-8a54-26088e75d4b6"
-        ]
-    }
+    ]
 }

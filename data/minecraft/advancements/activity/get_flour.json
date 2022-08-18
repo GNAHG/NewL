@@ -31,10 +31,5 @@
         [
             "get_flour"
         ]
-    ],
-    "rewards": {
-        "recipes": [
-            "cmilib:85917a2c-5770-32d9-be67-9313cd9158eb"
-        ]
-    }
+    ]
 }

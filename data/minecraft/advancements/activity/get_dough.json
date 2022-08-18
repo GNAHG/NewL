@@ -31,10 +31,5 @@
         [
             "get_dough"
         ]
-    ],
-    "rewards": {
-        "recipes": [
-            "cmilib:816bec80-2303-3fad-807d-8b56a6d3d147"
-        ]
-    }
+    ]
 }
