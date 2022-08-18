@@ -37,5 +37,8 @@
         [
             "fire_snow"
         ]
-    ]
+    ],
+    "rewards": {
+        "experience": 20
+    }
 }

@@ -240,5 +240,8 @@
         [
             "get_all_music_disc_5"
         ]
-    ]
+    ],
+    "rewards": {
+        "experience": 100
+    }
 }

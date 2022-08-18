@@ -25,5 +25,8 @@
         [
             "kill_warden"
         ]
-    ]
+    ],
+    "rewards": {
+        "experience": 50
+    }
 }

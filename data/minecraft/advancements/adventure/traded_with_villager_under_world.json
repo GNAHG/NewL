@@ -37,5 +37,8 @@
         [
             "traded_with_villager_under_world"
         ]
-    ]
+    ],
+    "rewards": {
+        "experience": 50
+    }
 }

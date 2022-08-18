@@ -104,5 +104,8 @@
         [
             "get_all_fish_tadpole_bucket"
         ]
-    ]
+    ],
+    "rewards": {
+        "experience": 20
+    }
 }

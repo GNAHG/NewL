@@ -28,5 +28,8 @@
         [
             "deflect_tnt"
         ]
-    ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
 }

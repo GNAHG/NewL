@@ -114,5 +114,8 @@
         [
             "kill_strider"
         ]
-    ]
+    ],
+    "rewards": {
+        "experience": 85
+    }
 }

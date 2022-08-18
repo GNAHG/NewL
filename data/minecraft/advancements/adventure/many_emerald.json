@@ -32,5 +32,8 @@
         [
             "many_emerald"
         ]
-    ]
+    ],
+    "rewards": {
+        "experience": 50
+    }
 }

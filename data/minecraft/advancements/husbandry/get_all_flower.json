@@ -235,5 +235,8 @@
         [
             "get_all_flower_peony"
         ]
-    ]
+    ],
+    "rewards": {
+        "experience": 50
+    }
 }

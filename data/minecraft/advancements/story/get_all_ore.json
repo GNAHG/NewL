@@ -209,5 +209,8 @@
         [
             "get_all_ore_raw_iron_block"
         ]
-    ]
+    ],
+    "rewards": {
+        "experience": 30
+    }
 }

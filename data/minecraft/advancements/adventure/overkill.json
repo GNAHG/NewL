@@ -27,5 +27,8 @@
         [
             "overkill"
         ]
-    ]
+    ],
+    "rewards": {
+        "experience": 30
+    }
 }

@@ -27,5 +27,8 @@
         [
             "get_blindness_darkness"
         ]
-    ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
 }

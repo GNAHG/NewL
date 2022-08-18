@@ -32,5 +32,8 @@
         [
             "many_emerald_block"
         ]
-    ]
+    ],
+    "rewards": {
+        "experience": 100
+    }
 }

@@ -36,5 +36,8 @@
         [
             "traded_with_villager_500"
         ]
-    ]
+    ],
+    "rewards": {
+        "experience": 100
+    }
 }
