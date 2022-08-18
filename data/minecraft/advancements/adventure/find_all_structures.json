@@ -13,215 +13,40 @@
     },
     "parent": "adventure/sleep_in_bed",
     "criteria": {
-        "find_all_structures_desert_pyramid": {
-            "conditions": {
-                "player": {
-                    "location": {
-                        "structure": "desert_pyramid"
-                    }
-                }
-            },
-            "trigger": "location"
-        },
-        "find_all_structures_igloo": {
-            "conditions": {
-                "player": {
-                    "location": {
-                        "structure": "igloo"
-                    }
-                }
-            },
-            "trigger": "location"
-        },
-        "find_all_structures_jungle_pyramid": {
-            "conditions": {
-                "player": {
-                    "location": {
-                        "structure": "jungle_pyramid"
-                    }
-                }
-            },
-            "trigger": "location"
-        },
-        "find_all_structures_mineshaft": {
-            "conditions": {
-                "player": {
-                    "location": {
-                        "structure": "mineshaft"
-                    }
-                }
-            },
-            "trigger": "location"
-        },
-        "find_all_structures_monument": {
-            "conditions": {
-                "player": {
-                    "location": {
-                        "structure": "monument"
-                    }
-                }
-            },
-            "trigger": "location"
-        },
-        "find_all_structures_pillager_outpost": {
-            "conditions": {
-                "player": {
-                    "location": {
-                        "structure": "pillager_outpost"
-                    }
-                }
-            },
-            "trigger": "location"
-        },
-        "find_all_structures_shipwreck": {
-            "conditions": {
-                "player": {
-                    "location": {
-                        "structure": "shipwreck"
-                    }
-                }
-            },
-            "trigger": "location"
-        },
-        "find_all_structures_stronghold": {
-            "conditions": {
-                "player": {
-                    "location": {
-                        "structure": "stronghold"
-                    }
-                }
-            },
-            "trigger": "location"
-        },
-        "find_all_structures_swamp_hut": {
-            "conditions": {
-                "player": {
-                    "location": {
-                        "structure": "swamp_hut"
-                    }
-                }
-            },
-            "trigger": "location"
-        },
-        "find_all_structures_ocean_ruin": {
-            "conditions": {
-                "player": {
-                    "location": {
-                        "structure": "ocean_ruin"
-                    }
-                }
-            },
-            "trigger": "location"
-        },
-        "find_all_structures_village": {
-            "conditions": {
-                "player": {
-                    "location": {
-                        "structure": "village"
-                    }
-                }
-            },
-            "trigger": "location"
-        },
-        "find_all_structures_mansion": {
-            "conditions": {
-                "player": {
-                    "location": {
-                        "structure": "mansion"
-                    }
-                }
-            },
-            "trigger": "location"
-        },
-        "find_all_structures_end_city": {
-            "conditions": {
-                "player": {
-                    "location": {
-                        "structure": "end_city"
-                    }
-                }
-            },
-            "trigger": "location"
-        },
-        "find_all_structures_fortress": {
-            "conditions": {
-                "player": {
-                    "location": {
-                        "structure": "fortress"
-                    }
-                }
-            },
-            "trigger": "location"
-        },
-        "find_all_structures_ruined_portal": {
-            "conditions": {
-                "player": {
-                    "location": {
-                        "structure": "ruined_portal"
-                    }
-                }
-            },
-            "trigger": "location"
-        },
-        "find_all_structures_bastion_remnant": {
-            "conditions": {
-                "player": {
-                    "location": {
-                        "structure": "bastion_remnant"
-                    }
-                }
-            },
-            "trigger": "location"
-        }
+        "find_all_structures_ancient_city":{"conditions":{"player":{"location":{"structure":"ancient_city"}}},"trigger":"location"},
+        "find_all_structures_buried_treasure":{"conditions":{"player":{"location":{"structure":"buried_treasure"}}},"trigger":"location"},
+        "find_all_structures_end_city":{"conditions":{"player":{"location":{"structure":"end_city"}}},"trigger":"location"},
+        "find_all_structures_fortress":{"conditions":{"player":{"location":{"structure":"fortress"}}},"trigger":"location"},
+        "find_all_structures_mansion":{"conditions":{"player":{"location":{"structure":"mansion"}}},"trigger":"location"},
+        "find_all_structures_mineshaft":{"conditions":{"player":{"location":{"structure":"mineshaft"}}},"trigger":"location"},
+        "find_all_structures_bastion_remnant":{"conditions":{"player":{"location":{"structure":"bastion_remnant"}}},"trigger":"location"},
+        "find_all_structures_monument":{"conditions":{"player":{"location":{"structure":"monument"}}},"trigger":"location"},
+        "find_all_structures_shipwreck":{"conditions":{"player":{"location":{"structure":"shipwreck"}}},"trigger":"location"},
+        "find_all_structures_nether_fossil":{"conditions":{"player":{"location":{"structure":"nether_fossil"}}},"trigger":"location"},
+        "find_all_structures_stronghold":{"conditions":{"player":{"location":{"structure":"stronghold"}}},"trigger":"location"},
+        "find_all_structures_desert_pyramid":{"conditions":{"player":{"location":{"structure":"desert_pyramid"}}},"trigger":"location"},
+        "find_all_structures_igloo":{"conditions":{"player":{"location":{"structure":"igloo"}}},"trigger":"location"},
+        "find_all_structures_jungle_pyramid":{"conditions":{"player":{"location":{"structure":"jungle_pyramid"}}},"trigger":"location"},
+        "find_all_structures_swamp_hut":{"conditions":{"player":{"location":{"structure":"swamp_hut"}}},"trigger":"location"},
+        "find_all_structures_pillager_outpost":{"conditions":{"player":{"location":{"structure":"pillager_outpost"}}},"trigger":"location"}
+        
     },
     "requirements": [
-        [
-            "find_all_structures_desert_pyramid"
-        ],
-        [
-            "find_all_structures_igloo"
-        ],
-        [
-            "find_all_structures_jungle_pyramid"
-        ],
-        [
-            "find_all_structures_mineshaft"
-        ],
-        [
-            "find_all_structures_monument"
-        ],
-        [
-            "find_all_structures_pillager_outpost"
-        ],
-        [
-            "find_all_structures_ruined_portal"
-        ],
-        [
-            "find_all_structures_shipwreck"
-        ],
-        [
-            "find_all_structures_stronghold"
-        ],
-        [
-            "find_all_structures_swamp_hut"
-        ],
-        [
-            "find_all_structures_ocean_ruin"
-        ],
-        [
-            "find_all_structures_village"
-        ],
-        [
-            "find_all_structures_mansion"
-        ],
-        [
-            "find_all_structures_end_city"
-        ],
-        [
-            "find_all_structures_fortress"
-        ],
-        [
-            "find_all_structures_bastion_remnant"
-        ]
+        ["find_all_structures_ancient_city"],
+        ["find_all_structures_buried_treasure"],
+        ["find_all_structures_end_city"],
+        ["find_all_structures_fortress"],
+        ["find_all_structures_mansion"],
+        ["find_all_structures_mineshaft"],
+        ["find_all_structures_bastion_remnant"],
+        ["find_all_structures_monument"],
+        ["find_all_structures_shipwreck"],
+        ["find_all_structures_nether_fossil"],
+        ["find_all_structures_stronghold"],
+        ["find_all_structures_desert_pyramid"],
+        ["find_all_structures_igloo"],
+        ["find_all_structures_jungle_pyramid"],
+        ["find_all_structures_swamp_hut"],
+        ["find_all_structures_pillager_outpost"]        
     ]
 }
