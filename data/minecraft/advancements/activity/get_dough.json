@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "item": "clay_ball",
+            "nbt": "{CustomModelData:1}"
+        },
+        "title": "\u548c\u9762",
+        "description": "\u4e24\u64ae\u9762\u7c89\u653e\u5728\u5de5\u4f5c\u53f0\u91cc\uff0c\u52a0\u4e00\u70b9\u6c34\uff0c\u7528\u64c0\u9762\u6756\u63c9\u6210\u4e00\u56e2\u7b80\u5355\u7684\u9762\u56e2",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "activity/get_flour",
+    "criteria": {
+        "get_dough": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "clay_ball"
+                        ],
+                        "nbt": "{CustomModelData:1}"
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "get_dough"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "cmilib:816bec80-2303-3fad-807d-8b56a6d3d147"
+        ]
+    }
+}

@@ -1,24 +1,24 @@
 {
     "display": {
         "icon": {
-            "item": "pumpkin_pie",
-            "nbt": "{Enchantments:[{}],CustomModelData:1}"
+            "item": "stick",
+            "nbt": "{CustomModelData:1}"
         },
-        "title": "\u6708\u997c",
-        "description": "\u8d4f\u6708\u5fc5\u5907\n\u4f46\u5e94\u8be5\u653e\u5728\u8425\u706b\u4e0a\u70e4\u4e00\u70e4\uff1f",
+        "title": "\u64c0\u9762\u6756",
+        "description": "\u63c9\u9762\u7528\uff0c\u53ef\u4e0d\u662f\u6b66\u5668",
         "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
+        "show_toast": false,
+        "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "activity/get_dough",
+    "parent": "activity/get_stripped_birch_log",
     "criteria": {
-        "get_moon_cake": {
+        "get_rolling_pin": {
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "pumpkin_pie"
+                            "stick"
                         ],
                         "nbt": "{CustomModelData:1}"
                     }
@@ -29,7 +29,7 @@
     },
     "requirements": [
         [
-            "get_moon_cake"
+            "get_rolling_pin"
         ]
     ]
 }

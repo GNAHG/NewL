@@ -1,24 +1,26 @@
 {
     "display": {
         "icon": {
-            "item": "wheat"
+            "item": "sugar",
+            "nbt": "{CustomModelData:1}"
         },
-        "title": "\u4e00\u5207\u7684\u6e90\u5934",
-        "description": "\u5c0f\u9ea6\u662f\u5236\u4f5c\u6708\u997c\u7684\u91cd\u8981\u539f\u6750\u6599",
+        "title": "\u9762\u7c89",
+        "description": "\u7528\u4e07\u80fd\u7684\u5207\u77f3\u673a\u6253\u78e8\u4e00\u4e0b\u5c0f\u9ea6",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "activity/root",
+    "parent": "activity/get_wheat",
     "criteria": {
-        "get_wheat": {
+        "get_flour": {
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "wheat"
-                        ]
+                            "sugar"
+                        ],
+                        "nbt": "{CustomModelData:1}"
                     }
                 ]
             },
@@ -27,12 +29,12 @@
     },
     "requirements": [
         [
-            "get_wheat"
+            "get_flour"
         ]
     ],
     "rewards": {
         "recipes": [
-            "cmilib:26196b73-81a9-3e3c-b23f-bafce592d63a","cmilib:ae0d9194-5641-3fcc-b605-82046646424f"
+            "cmilib:85917a2c-5770-32d9-be67-9313cd9158eb"
         ]
     }
 }

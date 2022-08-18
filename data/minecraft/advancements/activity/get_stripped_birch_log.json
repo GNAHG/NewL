@@ -1,23 +1,23 @@
 {
     "display": {
         "icon": {
-            "item": "wheat"
+            "item": "stripped_birch_log"
         },
-        "title": "\u4e00\u5207\u7684\u6e90\u5934",
-        "description": "\u5c0f\u9ea6\u662f\u5236\u4f5c\u6708\u997c\u7684\u91cd\u8981\u539f\u6750\u6599",
+        "title": "\u5e73\u6ed1\u5982\u955c",
+        "description": "\u7528\u4e07\u80fd\u7684\u5207\u77f3\u673a\u5904\u7406\u4e00\u5757\u6a61\u6728\u539f\u6728\uff0c\u8ba9\u5b83\u53d8\u5f97\u5149\u6ed1",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "activity/root",
+    "parent": "activity/get_wheat",
     "criteria": {
-        "get_wheat": {
+        "get_stripped_birch_log": {
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "wheat"
+                            "stripped_birch_log"
                         ]
                     }
                 ]
@@ -27,12 +27,13 @@
     },
     "requirements": [
         [
-            "get_wheat"
+            "get_stripped_birch_log"
         ]
     ],
     "rewards": {
         "recipes": [
-            "cmilib:26196b73-81a9-3e3c-b23f-bafce592d63a","cmilib:ae0d9194-5641-3fcc-b605-82046646424f"
+            "cmilib:d50c31af-0ca9-39c6-93b9-47378832360f",
+            "cmilib:02fcc417-bcd0-3efc-8a54-26088e75d4b6"
         ]
     }
 }
