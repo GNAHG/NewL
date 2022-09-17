@@ -1,0 +1,7 @@
+execute store result score @s newltemp run clear @s stone 1
+execute if score @s newltemp matches 1 run execute store result score @s newltemp run clear @s stone 0
+execute if score @s newltemp matches 1 run give @s stone 1
+execute if score @s newltemp matches 1 run playsound block.stone.place player @a
+execute if score @s newltemp matches 1 run particle block stone ^ ^ ^0.3 0.2 0.2 0.2 0 7 force @a
+execute if score @s newltemp matches 0 run playsound item.dye.use player @a
+scoreboard players reset @s newltemp

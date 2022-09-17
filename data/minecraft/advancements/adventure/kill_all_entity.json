@@ -124,10 +124,10 @@
             },
             "trigger": "player_killed_entity"
         },
-        "kill_all_entity_illusioner": {
+        "kill_all_entity_ravager": {
             "conditions": {
                 "entity": {
-                    "type": "illusioner"
+                    "type": "ravager"
                 }
             },
             "trigger": "player_killed_entity"
@@ -176,14 +176,6 @@
             "conditions": {
                 "entity": {
                     "type": "pufferfish"
-                }
-            },
-            "trigger": "player_killed_entity"
-        },
-        "kill_all_entity_ravager": {
-            "conditions": {
-                "entity": {
-                    "type": "ravager"
                 }
             },
             "trigger": "player_killed_entity"
@@ -618,9 +610,6 @@
         ],
         [
             "kill_all_entity_ravager"
-        ],
-        [
-            "kill_all_entity_illusioner"
         ],
         [
             "kill_all_entity_magma_cube"

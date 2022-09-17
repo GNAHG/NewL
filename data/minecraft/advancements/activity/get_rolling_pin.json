@@ -11,7 +11,7 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "activity/get_stripped_birch_log",
+    "parent": "activity/get_wheat",
     "criteria": {
         "get_rolling_pin": {
             "conditions": {
