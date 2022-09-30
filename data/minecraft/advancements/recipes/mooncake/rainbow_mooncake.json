@@ -1,0 +1,28 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "rainbow": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "note_block"
+                        ]
+                    }
+                },
+                "item": {
+                    "tag": "wool"
+                }
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "rainbow"
+        ]
+    ],
+    "rewards": {
+        "function": "mooncake/rainbow_mooncake"
+    }
+}

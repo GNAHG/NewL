@@ -1,0 +1,31 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "furit_cantaloupe": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "note_block"
+                        ]
+                    }
+                },
+                "item": {
+                    "items": [
+                        "apple"
+                    ],
+                    "nbt": "{CustomModelData:2}"
+                }
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "furit_cantaloupe"
+        ]
+    ],
+    "rewards": {
+        "function": "mooncake/fruit/cantaloupe_mooncake"
+    }
+}

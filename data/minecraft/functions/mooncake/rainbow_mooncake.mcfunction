@@ -16,3 +16,4 @@ execute if score @s newltemp matches 1.. run playsound entity.firework_rocket.tw
 execute if score @s newltemp matches 1.. run particle ambient_entity_effect ~ ~1.5 ~ 0 0 0 1 20 force @a
 execute if score @s newltemp matches 0 run playsound item.dye.use player @a
 scoreboard players reset @s newltemp
+advancement revoke @s only recipes/mooncake/rainbow_mooncake

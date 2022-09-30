@@ -1,0 +1,31 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "mooncake": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "note_block"
+                        ]
+                    }
+                },
+                "item": {
+                    "items": [
+                        "bowl"
+                    ],
+                    "nbt": "{CustomModelData:1}"
+                }
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "mooncake"
+        ]
+    ],
+    "rewards": {
+        "function": "mooncake"
+    }
+}
