@@ -1,0 +1,30 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "health_bottle": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "note_block"
+                        ]
+                    }
+                },
+                "item": {
+                    "items": [
+                        "glass_bottle"
+                    ]
+                }
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "health_bottle"
+        ]
+    ],
+    "rewards": {
+        "function": "health_bottle"
+    }
+}
