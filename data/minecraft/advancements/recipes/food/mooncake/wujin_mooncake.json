@@ -1,0 +1,30 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "wujin": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "note_block"
+                        ]
+                    }
+                },
+                "item": {
+                    "items": [
+                        "quartz"
+                    ]
+                }
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "wujin"
+        ]
+    ],
+    "rewards": {
+        "function": "recipes/food/mooncake/wujin_mooncake"
+    }
+}

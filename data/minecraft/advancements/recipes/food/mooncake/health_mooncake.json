@@ -1,0 +1,30 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "health_mooncake": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "note_block"
+                        ]
+                    }
+                },
+                "item": {
+                    "items": [
+                        "dragon_breath"
+                    ]
+                }
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "health_mooncake"
+        ]
+    ],
+    "rewards": {
+        "function": "recipes/food/mooncake/health_mooncake"
+    }
+}

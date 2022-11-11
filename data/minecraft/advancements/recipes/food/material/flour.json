@@ -1,0 +1,30 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "flour": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "note_block"
+                        ]
+                    }
+                },
+                "item": {
+                    "items": [
+                        "wheat"
+                    ]
+                }
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "flour"
+        ]
+    ],
+    "rewards": {
+        "function": "recipes/food/material/flour"
+    }
+}
