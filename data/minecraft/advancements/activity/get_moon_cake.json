@@ -5,7 +5,7 @@
             "nbt": "{Enchantments:[{}],CustomModelData:1}"
         },
         "title": "\u6708\u997c",
-        "description": "\u8d4f\u6708\u5fc5\u5907\n\u4f46\u5e94\u8be5\u653e\u5728\u8425\u706b\u4e0a\u70e4\u4e00\u70e4\uff1f",
+        "description": "\u8d4f\u6708\u5fc5\u5907",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

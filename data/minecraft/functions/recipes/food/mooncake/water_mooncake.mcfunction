@@ -9,5 +9,6 @@ execute if score @s newltemp matches 4.. run playsound item.bottle.empty player 
 execute if score @s newltemp matches 4.. run playsound block.amethyst_block.break player @a
 execute if score @s newltemp matches 4.. run particle dripping_water ~ ~1.5 ~ 0.2 0.2 0.2 0 13 force @a
 execute if score @s newltemp matches 0..3 run playsound item.dye.use player @a
+execute if score @s newltemp matches 0..3 run function information/recipes/food/mooncake/water_mooncake
 scoreboard players reset @s newltemp
 advancement revoke @s only recipes/food/mooncake/water_mooncake

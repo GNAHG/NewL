@@ -3,20 +3,21 @@
     "criteria": {
         "information": {
             "conditions": {
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "note_block"
-                        ]
+                "block": "note_block",
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "newlinfor":1
+                            }
+                        }
                     }
-                },
-                "item": {
-                    "items": [
-                        "air"
-                    ]
-                }
+                ]
             },
-            "trigger": "item_used_on_block"
+            "trigger": "placed_block"
         }
     },
     "requirements": [

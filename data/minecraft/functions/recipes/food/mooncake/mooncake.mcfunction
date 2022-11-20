@@ -11,5 +11,6 @@ execute if score @s newltemp matches 2.. run playsound block.bone_block.break pl
 execute if score @s newltemp matches 2.. run playsound item.axe.wax_off player @a
 execute if score @s newltemp matches 2.. run particle dust 0.945 0.671 0.161 1 ~ ~1.5 ~ 0.2 0.2 0.2 0 13 force @a
 execute if score @s newltemp matches 0..1 run playsound item.dye.use player @a
+execute if score @s newltemp matches 0..1 run function information/recipes/food/mooncake/mooncake
 scoreboard players reset @s newltemp
 advancement revoke @s only recipes/food/mooncake/mooncake

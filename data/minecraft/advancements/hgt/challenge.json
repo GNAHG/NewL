@@ -1,0 +1,66 @@
+{
+    "display": {
+        "icon": {
+            "item": "diamond"
+        },
+        "title": "\u6311\u6218",
+        "description": "\u6311\u6218\u4e00\u4e9b\u5c0f\u6e38\u620f\uff01",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "hgt/root",
+    "criteria": {
+        "challenge_boat": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "hgt/boat": true
+                        }
+                    }
+                }
+            }
+        },
+        "challenge_ejection": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "hgt/ejection": true
+                        }
+                    }
+                }
+            }
+        },
+        "challenge_parkour": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "hgt/parkour": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "challenge_boat"
+        ],
+        [
+            "challenge_ejection"
+        ],
+        [
+            "challenge_parkour"
+        ]
+    ]
+}

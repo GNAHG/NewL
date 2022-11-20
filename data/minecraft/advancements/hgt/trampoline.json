@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "slime_ball"
+        },
+        "title": "\u8e66\u5e8a",
+        "description": "[\u53d1\u5c04]\uff01",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "hgt/explore",
+    "criteria": {
+        "trampoline": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "trampoline"
+        ]
+    ]
+}

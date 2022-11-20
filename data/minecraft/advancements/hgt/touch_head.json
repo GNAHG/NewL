@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "player_head"
+        },
+        "title": "\u629a\u6478",
+        "description": "\u53ea\u662f\u8f7b\u8f7b\u6478\u4e00\u4e0b",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "hgt/explore",
+    "criteria": {
+        "touch_head": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "touch_head"
+        ]
+    ]
+}

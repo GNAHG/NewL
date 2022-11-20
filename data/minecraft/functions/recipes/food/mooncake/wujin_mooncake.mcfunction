@@ -14,5 +14,6 @@ execute if score @s newltemp matches 1.. run playsound block.iron_door.open play
 execute if score @s newltemp matches 1.. run playsound block.fire.ambient player @a
 execute if score @s newltemp matches 1.. run particle lava ~ ~1.5 ~ 0.2 0.2 0.2 0 13 force @a
 execute if score @s newltemp matches 0 run playsound item.dye.use player @a
+execute if score @s newltemp matches 0 run function information/recipes/food/mooncake/wujin_mooncake
 scoreboard players reset @s newltemp
 advancement revoke @s only recipes/food/mooncake/wujin_mooncake

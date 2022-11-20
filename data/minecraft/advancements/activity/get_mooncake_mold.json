@@ -5,7 +5,7 @@
             "nbt": "{CustomModelData:1}"
         },
         "title": "\u6708\u997c\u6a21\u5177",
-        "description": "\u539f\u7248\u7684\u7897\u600e\u4e48\u505a\uff1f\u628a\u6728\u677f\u6362\u6210\u5149\u6ed1\u7684\u6728\u6599\u8bd5\u8bd5",
+        "description": "\u53ea\u80fd\u505a\u6708\u997c\u4e86",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,

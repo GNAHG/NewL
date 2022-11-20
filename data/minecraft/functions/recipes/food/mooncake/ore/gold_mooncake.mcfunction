@@ -8,5 +8,6 @@ execute if score @s newltemp matches 4.. run playsound block.stone.step player @
 execute if score @s newltemp matches 4.. run playsound block.fire.ambient player @a
 execute if score @s newltemp matches 4.. run particle block gold_block ~ ~1.5 ~ 0.2 0.2 0.2 0 13 force @a
 execute if score @s newltemp matches 0..3 run playsound item.dye.use player @a
+execute if score @s newltemp matches 0..3 run function information/recipes/food/mooncake/ore/gold_mooncake
 scoreboard players reset @s newltemp
 advancement revoke @s only recipes/food/mooncake/ore/gold_mooncake

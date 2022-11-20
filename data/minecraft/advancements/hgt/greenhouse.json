@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "big_dripleaf"
+        },
+        "title": "\u6e29\u5ba4",
+        "description": "\u4e3a\u4e86\u81ea\u7ed9\u81ea\u8db3\uff1f",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "hgt/explore",
+    "criteria": {
+        "greenhouse": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "greenhouse"
+        ]
+    ]
+}

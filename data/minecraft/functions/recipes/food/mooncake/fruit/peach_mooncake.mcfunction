@@ -8,5 +8,6 @@ execute if score @s newltemp matches 4.. run playsound ui.loom.take_result playe
 execute if score @s newltemp matches 4.. run playsound block.amethyst_block.place player @a
 execute if score @s newltemp matches 4.. run particle end_rod ~ ~1.5 ~ 0.2 0.2 0.2 0 13 force @a
 execute if score @s newltemp matches 0..3 run playsound item.dye.use player @a
+execute if score @s newltemp matches 0 run function information/recipes/food/mooncake/fruit/peach_mooncake
 scoreboard players reset @s newltemp
 advancement revoke @s only recipes/food/mooncake/fruit/peach_mooncake

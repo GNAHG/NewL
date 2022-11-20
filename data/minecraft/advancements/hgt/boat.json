@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "oak_boat"
+        },
+        "title": "\u901f\u5ea6\u4e0e\u6fc0\u60c5",
+        "description": "\u53cd\u6b63\u5c31\u662f\u5f88\u5feb\uff01",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "hgt/challenge",
+    "criteria": {
+        "parkour": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "parkour"
+        ]
+    ]
+}

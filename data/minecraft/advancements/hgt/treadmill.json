@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecart"
+        },
+        "title": "\u751f\u547d\u5728\u4e8e\u8fd0\u52a8",
+        "description": "run!",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "hgt/explore",
+    "criteria": {
+        "treadmill": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "treadmill"
+        ]
+    ]
+}
