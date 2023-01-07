@@ -40,7 +40,7 @@
                   "enchantment": "minecraft:fortune"
                 }
               ],
-              "name": "minecraft:glass"
+              "name": "minecraft:glass_pane"
             }
           ]
         }
