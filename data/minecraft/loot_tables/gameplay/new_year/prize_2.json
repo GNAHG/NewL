@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:advancement_reward",
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "tag",
+                    "expand": true,
+                    "name": "prize_middle_ore"
+                }
+            ]
+        },
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "tag",
+                    "expand": true,
+                    "name": "prize_food",
+                    "weight": 80
+                },
+                {
+                    "type": "tag",
+                    "expand": true,
+                    "name": "prize_low_food",
+                    "weight": 10
+                },
+                {
+                    "type": "empty",
+                    "weight": 10,
+                    "quality": -1
+                }
+            ]
+        }
+    ]
+}

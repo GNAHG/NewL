@@ -1,6 +1,6 @@
 execute store result score @s newltemp run clear @s water_bucket 0
-execute if score @s newltemp matches 1 run execute store result score @s newltemp run clear @s stick{CustomModelData:1} 0
-execute if score @s newltemp matches 1 run execute store result score @s newltemp run clear @s sugar{CustomModelData:1} 0
+execute if score @s newltemp matches 1.. run execute store result score @s newltemp run clear @s stick{CustomModelData:1} 0
+execute if score @s newltemp matches 1.. run execute store result score @s newltemp run clear @s sugar{CustomModelData:1} 0
 execute if score @s newltemp matches 1.. run clear @s water_bucket 1
 execute if score @s newltemp matches 1.. run clear @s sugar{CustomModelData:1} 1
 execute if score @s newltemp matches 1.. run give @s bucket 1

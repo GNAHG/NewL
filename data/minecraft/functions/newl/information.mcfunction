@@ -10,7 +10,7 @@ tellraw @s {"text":"数据包添加了一些基于原版的成就，在此感谢
 function information/divider
 tellraw @s {"text":"合成：","color":"blue"}
 tellraw @s {"text":"数据包的合成系统使用了音符盒，玩家手持特定物品右键，且背包中有合成需要物品即可合成，突破了工作台的物品和 NBT 的限制。","color":"blue"}
-tellraw @s [{"text":"想获得合成配方可以输入 ","color":"blue"},{"text":"/warp crafting","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/warp crafting"},"hoverEvent":{"action":"show_text","value":"点击将运行 /warp crafting"}},{"text":" 或者到网站 ","color":"blue"},{"text":"https://gnahg.github.io/datapack_wiki/","color":"blue","bold":true,"clickEvent":{"action":"open_url","value":"https://gnahg.github.io/datapack_wiki/"},"hoverEvent":{"action":"show_text","value":"点击将打开网站 https://gnahg.github.io/datapack_wiki/"}},{"text":" 去查看。","color":"blue"}]
+tellraw @s [{"text":"想获得合成配方可以左键音符盒，或者到网站 ","color":"blue"},{"text":"https://gnahg.github.io/datapack_wiki/","color":"blue","bold":true,"clickEvent":{"action":"open_url","value":"https://gnahg.github.io/datapack_wiki/"},"hoverEvent":{"action":"show_text","value":"点击将打开网站 https://gnahg.github.io/datapack_wiki/"}},{"text":" 去查看。","color":"blue"}]
 function information/divider
 tellraw @s {"text":"特性：","color":"blue"}
 tellraw @s {"text":"你现在可以使用水桶右键物品展示框让其隐身，使用皮革右键恢复原样。","color":"blue"}

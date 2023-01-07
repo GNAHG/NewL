@@ -1,7 +1,7 @@
 {
     "parent": "recipes/root",
     "criteria": {
-        "flour": {
+        "named_name_tag": {
             "conditions": {
                 "location": {
                     "block": {
@@ -12,21 +12,19 @@
                 },
                 "item": {
                     "items": [
-                        "wheat"
+                        "name_tag"
                     ]
                 },
                 "player": [
                     {
                         "condition": "inverted",
                         "term": {
-                            "condition": "minecraft:entity_properties",
+                            "condition": "entity_properties",
                             "entity": "this",
                             "predicate": {
-                                "location": {
-                                    "block": {
-                                        "blocks": [
-                                            "water"
-                                        ]
+                                "equipment": {
+                                    "mainhand": {
+                                        "nbt": "{CustomModelData:1}"
                                     }
                                 }
                             }
@@ -39,10 +37,10 @@
     },
     "requirements": [
         [
-            "flour"
+            "named_name_tag"
         ]
     ],
     "rewards": {
-        "function": "recipes/food/material/flour"
+        "function": "recipes/others/named_name_tag"
     }
 }

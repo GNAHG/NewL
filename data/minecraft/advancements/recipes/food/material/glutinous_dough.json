@@ -1,7 +1,7 @@
 {
     "parent": "recipes/root",
     "criteria": {
-        "health_mooncake": {
+        "glutinous_dough": {
             "conditions": {
                 "location": {
                     "block": {
@@ -12,9 +12,9 @@
                 },
                 "item": {
                     "items": [
-                        "pumpkin_pie"
+                        "sugar"
                     ],
-                    "nbt": "{CustomModelData:10}"
+                    "nbt": "{CustomModelData:2}"
                 }
             },
             "trigger": "item_used_on_block"
@@ -22,10 +22,10 @@
     },
     "requirements": [
         [
-            "health_mooncake"
+            "glutinous_dough"
         ]
     ],
     "rewards": {
-        "function": "recipes/food/mooncake/health_mooncake"
+        "function": "recipes/food/material/glutinous_dough"
     }
 }

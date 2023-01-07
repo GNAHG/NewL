@@ -1,20 +1,21 @@
 {
     "parent": "recipes/root",
     "criteria": {
-        "health_mooncake": {
+        "tangyuan": {
             "conditions": {
                 "location": {
                     "block": {
                         "blocks": [
                             "note_block"
                         ]
-                    }
+                    },
+                    "smokey": true
                 },
                 "item": {
                     "items": [
-                        "pumpkin_pie"
+                        "cookie"
                     ],
-                    "nbt": "{CustomModelData:10}"
+                    "nbt": "{CustomModelData:1}"
                 }
             },
             "trigger": "item_used_on_block"
@@ -22,10 +23,10 @@
     },
     "requirements": [
         [
-            "health_mooncake"
+            "tangyuan"
         ]
     ],
     "rewards": {
-        "function": "recipes/food/mooncake/health_mooncake"
+        "function": "recipes/food/tangyuan/tangyuan"
     }
 }

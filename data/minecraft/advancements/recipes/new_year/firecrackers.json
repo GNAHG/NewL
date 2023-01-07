@@ -1,7 +1,7 @@
 {
     "parent": "recipes/root",
     "criteria": {
-        "health_mooncake": {
+        "firecrackers": {
             "conditions": {
                 "location": {
                     "block": {
@@ -12,9 +12,8 @@
                 },
                 "item": {
                     "items": [
-                        "pumpkin_pie"
-                    ],
-                    "nbt": "{CustomModelData:10}"
+                        "gunpowder"
+                    ]
                 }
             },
             "trigger": "item_used_on_block"
@@ -22,10 +21,10 @@
     },
     "requirements": [
         [
-            "health_mooncake"
+            "firecrackers"
         ]
     ],
     "rewards": {
-        "function": "recipes/food/mooncake/health_mooncake"
+        "function": "recipes/new_year/firecrackers"
     }
 }
