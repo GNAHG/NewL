@@ -8,5 +8,6 @@ tag @e[tag=lead1] remove lead1
 tag @e[tag=lead2] remove lead2
 tag @s remove playerlead
 title @s actionbar {"text": "链接两个栅栏","color": "green"}
+clear @s lead 1
 advancement revoke @s only recipes/gameplay/entity/leash_knot/leash_knoted
 advancement revoke @s only recipes/gameplay/entity/leash_knot/leash_knot
