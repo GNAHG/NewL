@@ -1,0 +1,21 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "kill_leash_knot": {
+            "conditions": {
+                "entity": {
+                    "type": "leash_knot"
+                }
+            },
+            "trigger": "player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "kill_leash_knot"
+        ]
+    ],
+    "rewards": {
+        "function": "gameplay/entity/leash_knot/kill_leash_knot"
+    }
+}
