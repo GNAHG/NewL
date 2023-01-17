@@ -1,0 +1,26 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "ifni": {
+            "conditions": {
+                "entity": {
+                    "type": "item_frame"
+                },
+                "item": {
+                    "items": [
+                        "leather"
+                    ]
+                }
+            },
+            "trigger": "player_interacted_with_entity"
+        }
+    },
+    "requirements": [
+        [
+            "ifni"
+        ]
+    ],
+    "rewards": {
+        "function": "ray/start/entity/item_frame/ifniray"
+    }
+}

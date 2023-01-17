@@ -1,0 +1,1 @@
+execute anchored eyes run function ray/entity/boat/chest_boatray

@@ -1,0 +1,21 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "player_leash_knot": {
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[\"playerlead\"]}"
+                }
+            },
+            "trigger": "location"
+        }
+    },
+    "requirements": [
+        [
+            "player_leash_knot"
+        ]
+    ],
+    "rewards": {
+        "function": "gameplay/entity/leash_knot/player_leash_knot"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "leash_knot": {
+            "conditions": {
+                "item": {
+                    "items": [
+                        "lead"
+                    ]
+                },
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "recipes/gameplay/entity/leash_knot/leash_knoted": false
+                        }
+                    }
+                }
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "leash_knot"
+        ]
+    ],
+    "rewards": {
+        "function": "ray/start/entity/leash_knot/leash_knotray"
+    }
+}
