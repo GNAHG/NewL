@@ -7,7 +7,7 @@
                     "type": "leash_knot"
                 }
             },
-            "trigger": "player_killed_entity"
+            "trigger": "player_interacted_with_entity"
         }
     },
     "requirements": [
