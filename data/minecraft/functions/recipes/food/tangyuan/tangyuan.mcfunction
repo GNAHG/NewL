@@ -2,7 +2,7 @@ execute store result score @s newltemp run clear @s bowl 0
 execute if score @s newltemp matches 1.. run execute store result score @s newltemp run clear @s cookie{CustomModelData:1} 0
 execute if score @s newltemp matches 4.. run clear @s bowl 1
 execute if score @s newltemp matches 4.. run clear @s cookie{CustomModelData:1} 4
-execute if score @s newltemp matches 4.. run give @s rabbit_stew{CustomModelData:1,NBTCommands: ["3+BFMRk7H3rC/t5xrDpFGw==", "6oBX/erfHAx1FmzbfKTPyHk/kkJnEUaXtv+xuow+7oWMcoDjR3/Ug6+8fVyhyQDad98ea/tEKia8U4bxO/6vCg==", "6oBX/erfHAx1FmzbfKTPyHk/kkJnEUaXtv+xuow+7oVKfIOWNvwj9s01RpmnZsKN4GS1flWlz8KAyXmI4iu35A=="],display:{Name:'{"text": "汤圆","italic": false}'}} 4
+execute if score @s newltemp matches 4.. run give @s rabbit_stew{CustomModelData:1,NBTCommands:["3+BFMRk7H3rC/t5xrDpFGw==","6oBX/erfHAx1FmzbfKTPyHk/kkJnEUaXtv+xuow+7oWMcoDjR3/Ug6+8fVyhyQDaqGJfoTiMPs8y7l/PBLXzWw==","6oBX/erfHAx1FmzbfKTPyHk/kkJnEUaXtv+xuow+7oVocz3gXnid8b3c63Sqo59rktOKab+yOJs1+S1DKWcmKg=="]} 2
 execute if score @s newltemp matches 4.. run playsound block.lava.pop player @a ~ ~ ~ 0.5 1.8
 execute if score @s newltemp matches 4.. run playsound entity.generic.drink player @a ~ ~ ~ 1 2
 execute if score @s newltemp matches 4.. run playsound block.amethyst_block.break player @a ~ ~ ~ 1 1.8
