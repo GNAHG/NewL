@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "ingredient": {
-        "item": "dark_oak_log"
+        "item": "dark_oak_planks"
     },
     "count": 2,
     "result": "dark_oak_slab"

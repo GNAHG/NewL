@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "ingredient": {
-        "item": "birch_log"
+        "item": "birch_planks"
     },
     "count": 2,
     "result": "birch_slab"

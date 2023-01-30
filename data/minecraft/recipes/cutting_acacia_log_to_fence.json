@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "ingredient": {
-        "item": "acacia_log"
+        "item": "acacia_planks"
     },
     "count": 1,
     "result": "acacia_fence"

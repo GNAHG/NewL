@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "ingredient": {
-        "item": "oak_log"
+        "item": "oak_planks"
     },
     "count": 1,
     "result": "oak_fence"

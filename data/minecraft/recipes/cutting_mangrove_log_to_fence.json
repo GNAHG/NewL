@@ -1,7 +1,7 @@
 {
     "type": "stonecutting",
     "ingredient": {
-        "item": "mangrove_log"
+        "item": "mangrove_planks"
     },
     "count": 1,
     "result": "mangrove_fence"
