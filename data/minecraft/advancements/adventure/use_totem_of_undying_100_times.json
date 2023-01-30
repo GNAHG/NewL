@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "totem_of_undying",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "\u6FD2\u6B7B\u72B6\u6001",
+        "description": "\u4F7F\u7528\u5B8C\u0031\u0030\u0030\u4E2A\u56FE\u817E",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/totem_of_undying",
+    "criteria": {
+        "use_totem_of_undying_100_times": {
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "used",
+                                "stat": "totem_of_undying",
+                                "value": {
+                                    "min": 100
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "trigger": "used_totem"
+        }
+    },
+    "requirements": [
+        [
+            "use_totem_of_undying_100_times"
+        ]
+    ],
+    "rewards": {
+        "experience": 100
+    }
+}

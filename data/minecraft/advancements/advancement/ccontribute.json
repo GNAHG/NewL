@@ -3,22 +3,22 @@
         "icon": {
             "item": "player_head"
         },
-        "title": "\u8d21\u732e\u8005\u540d\u5355",
-        "description": "\u7B49\u5F85\u4EA7\u751F\u002E\u002E\u002E",
-        "frame": "task",
+        "title": "\u8d21\u732e\u699c2",
+        "description": "\u7B49\u5F85\u6D3B\u52A8\u7ED3\u679C\u002E\u002E\u002E",
+        "frame": "goal",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "advancement/root",
+    "parent": "advancement/contributor_list",
     "criteria": {
-        "contributor_list": {
+        "contribute2": {
             "trigger": "tick"
         }
     },
     "requirements": [
         [
-            "contributor_list"
+            "contribute2"
         ]
     ]
 }

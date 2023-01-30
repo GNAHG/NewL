@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "iron_boots"
+        },
+        "title": "\u4E07\u91CC\u4E4B\u5916",
+        "description": "\u4ECE\u4E16\u754C\u7684\u4E2D\u5FC3\u5411\u4EFB\u4F55\u65B9\u5411\u884C\u8D70\u81F3\u5C11\u0031\u0030\u0030\u0030\u0030\u4E2A\u65B9\u5757\u3002\n\u4E07\u91CC\u4E4B\u884C\u0020\u59CB\u4E8E\u8DB3\u4E0B",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/walk_on_powder_snow_with_leather_boots",
+    "criteria": {
+        "arrive_10000": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "arrive_10000"
+        ]
+    ],
+    "rewards": {
+        "function": "advancements/adventure/reward/arrive_10000"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "display": {
+        "icon": {
+            "item": "blue_ice"
+        },
+        "title": "\u989D\u2026\u0046\u0031\u003F",
+        "description": "\u5728\u004D\u0043\u4E2D\u4EE5\u6781\u9650\u901F\u5EA6\u5954\u8DD1",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/avoid_vibration",
+    "criteria": {
+        "run_fast": {
+            "conditions": {
+                "player": {
+                    "flags": {
+                        "is_sprinting": true
+                    },
+                    "effects": {
+                        "speed": {
+                            "amplifier": 1
+                        }
+                    },
+                    "stepping_on": {
+                        "block": {
+                            "blocks": [
+                                "blue_ice"
+                            ]
+                        }
+                    }
+                }
+            },
+            "trigger": "location"
+        }
+    },
+    "requirements": [
+        [
+            "run_fast"
+        ]
+    ],
+    "rewards": {
+        "experience": 100
+    }
+}

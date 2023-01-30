@@ -1,0 +1,1 @@
+execute as @a[advancements={minecraft:adventure/arrive_10000=false}] positioned 0 64 0 if predicate advancements/arrive_10000 run advancement grant @s only adventure/arrive_10000

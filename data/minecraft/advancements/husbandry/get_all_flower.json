@@ -16,7 +16,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["dandelion"]
+                        "items": [
+                            "dandelion"
+                        ]
                     }
                 ]
             },
@@ -26,7 +28,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["poppy"]
+                        "items": [
+                            "poppy"
+                        ]
                     }
                 ]
             },
@@ -36,7 +40,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["blue_orchid"]
+                        "items": [
+                            "blue_orchid"
+                        ]
                     }
                 ]
             },
@@ -46,7 +52,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["allium"]
+                        "items": [
+                            "allium"
+                        ]
                     }
                 ]
             },
@@ -56,7 +64,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["azure_bluet"]
+                        "items": [
+                            "azure_bluet"
+                        ]
                     }
                 ]
             },
@@ -66,7 +76,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["red_tulip"]
+                        "items": [
+                            "red_tulip"
+                        ]
                     }
                 ]
             },
@@ -76,7 +88,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["orange_tulip"]
+                        "items": [
+                            "orange_tulip"
+                        ]
                     }
                 ]
             },
@@ -86,7 +100,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["white_tulip"]
+                        "items": [
+                            "white_tulip"
+                        ]
                     }
                 ]
             },
@@ -96,7 +112,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["pink_tulip"]
+                        "items": [
+                            "pink_tulip"
+                        ]
                     }
                 ]
             },
@@ -106,7 +124,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["oxeye_daisy"]
+                        "items": [
+                            "oxeye_daisy"
+                        ]
                     }
                 ]
             },
@@ -116,7 +136,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["cornflower"]
+                        "items": [
+                            "cornflower"
+                        ]
                     }
                 ]
             },
@@ -126,7 +148,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["lily_of_the_valley"]
+                        "items": [
+                            "lily_of_the_valley"
+                        ]
                     }
                 ]
             },
@@ -136,7 +160,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["wither_rose"]
+                        "items": [
+                            "wither_rose"
+                        ]
                     }
                 ]
             },
@@ -146,7 +172,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["sunflower"]
+                        "items": [
+                            "sunflower"
+                        ]
                     }
                 ]
             },
@@ -156,7 +184,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["lilac"]
+                        "items": [
+                            "lilac"
+                        ]
                     }
                 ]
             },
@@ -166,7 +196,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["rose_bush"]
+                        "items": [
+                            "rose_bush"
+                        ]
                     }
                 ]
             },
@@ -176,7 +208,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["peony"]
+                        "items": [
+                            "peony"
+                        ]
                     }
                 ]
             },

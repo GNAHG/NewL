@@ -1,11 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "player_head",
-            "nbt": "{SkullOwner:{Id:[I;749958418,1213480072,-1578926099,-828558239],Name:'iceland2418896'}}"
+            "item": "player_head"
         },
         "title": "\u8d21\u732e\u699c3",
-        "description": "iceland2418896!",
+        "description": "\u7B49\u5F85\u6D3B\u52A8\u7ED3\u679C\u002E\u002E\u002E",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,

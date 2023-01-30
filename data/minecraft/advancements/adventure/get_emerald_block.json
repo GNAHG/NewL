@@ -15,17 +15,18 @@
     "criteria": {
         "many_emerald_block": {
             "conditions": {
-                "player": [
+                "slots": {
+                    "full": 36
+                },
+                "items": [
                     {
-                        "condition": "entity_scores",
-                        "entity": "this",
-                        "scores": {
-                            "emerald_block": 2304
-                        }
+                        "items": [
+                            "emerald_block"
+                        ]
                     }
                 ]
             },
-            "trigger": "location"
+            "trigger": "inventory_changed"
         }
     },
     "requirements": [
