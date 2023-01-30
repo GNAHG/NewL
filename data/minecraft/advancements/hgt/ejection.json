@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "slime_block"
+        },
+        "title": "\u5f39\u5f39\u5f39",
+        "description": "\u5176\u5b9e\u662f\u5236\u4f5c\u540d\u5355\u5566",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "hgt/challenge",
+    "criteria": {
+        "ejection": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "ejection"
+        ]
+    ]
+}

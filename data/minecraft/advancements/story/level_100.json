@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "experience_bottle"
+        },
+        "title": "\u5b9d\u8d35\u8d22\u5bcc",
+        "description": "\u8fbe\u5230100\u7ea7\nBy Po__xiao",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "story/enchant_item",
+    "criteria": {
+        "level_100": {
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "level": {
+                            "min": 100
+                        }
+                    }
+                }
+            },
+            "trigger": "location"
+        }
+    },
+    "requirements": [
+        [
+            "level_100"
+        ]
+    ]
+}

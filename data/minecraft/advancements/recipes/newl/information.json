@@ -1,0 +1,31 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "information": {
+            "conditions": {
+                "block": "note_block",
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "newlinfor":1
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "placed_block"
+        }
+    },
+    "requirements": [
+        [
+            "information"
+        ]
+    ],
+    "rewards": {
+        "function": "newl/information"
+    }
+}

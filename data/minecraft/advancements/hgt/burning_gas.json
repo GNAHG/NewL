@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "campfire"
+        },
+        "title": "\u5c0f\u578b\u71c3\u6c14\u7076",
+        "description": "\u4f7f\u7528\u6309\u94ae\u9a71\u52a8\uff1f",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "hgt/explore",
+    "criteria": {
+        "burning_gas": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "burning_gas"
+        ]
+    ]
+}

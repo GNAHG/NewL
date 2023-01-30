@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "loom"
+        },
+        "title": "\u7ec7\u5e03ing",
+        "description": "\u4ec5\u6709\u7684\u4e24\u53f0\u7ec7\u5e03\u673a",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "hgt/explore",
+    "criteria": {
+        "loom": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "loom"
+        ]
+    ]
+}

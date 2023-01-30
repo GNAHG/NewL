@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "compass"
+        },
+        "title": "\u8fdb\u5ea6",
+        "description": "\u8fd9\u662f\u4e2a\u8fdb\u8fc7\u6269\u5145\u7684\u8fdb\u5ea6\n\u611f\u8c22\u7fa4\u53cb\u4eec\u7684\u70b9\u5b50\n(\uffe3\u25bd\uffe3)",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/iron_block.png"
+    },
+    "criteria": {
+        "get_advancement": {
+            "trigger": "tick"
+        }
+    },
+    "requirements": [
+        [
+            "get_advancement"
+        ]
+    ]
+}

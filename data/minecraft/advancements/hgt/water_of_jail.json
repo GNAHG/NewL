@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "cauldron"
+        },
+        "title": "\u76d1\u72f1\u82e6\u6c34",
+        "description": "\u53ea\u662f\u6765\u559d\u4e00\u4e0b",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "hgt/explore",
+    "criteria": {
+        "water_of_jail": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "water_of_jail"
+        ]
+    ]
+}

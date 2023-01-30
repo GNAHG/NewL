@@ -1,0 +1,31 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "fu": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "note_block"
+                        ]
+                    }
+                },
+                "item": {
+                    "items": [
+                        "paper"
+                    ],
+                    "nbt": "{CustomModelData:2}"
+                }
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "fu"
+        ]
+    ],
+    "rewards": {
+        "function": "recipes/new_year/fu"
+    }
+}

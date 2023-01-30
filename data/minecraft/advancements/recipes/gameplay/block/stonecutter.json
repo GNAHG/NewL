@@ -1,0 +1,27 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "stonecutter": {
+            "conditions": {
+                "player": {
+                    "stepping_on": {
+                        "block": {
+                            "blocks": [
+                                "stonecutter"
+                            ]
+                        }
+                    }
+                }
+            },
+            "trigger": "location"
+        }
+    },
+    "requirements": [
+        [
+            "stonecutter"
+        ]
+    ],
+    "rewards": {
+        "function": "gameplay/block/stonecutter"
+    }
+}

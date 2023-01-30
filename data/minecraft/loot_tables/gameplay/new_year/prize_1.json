@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:advancement_reward",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 80,
+                    "quality": 0
+                },
+                {
+                    "type": "tag",
+                    "expand": true,
+                    "name": "prize_netherite",
+                    "weight": 10,
+                    "quality": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "gameplay/new_year/prize_enchant",
+                    "weight": 10,
+                    "quality": 2
+                }
+            ]
+        },
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 2.0,
+            "entries": [
+                {
+                    "type": "tag",
+                    "expand": true,
+                    "name": "prize_high_ore"
+                }
+            ]
+        },
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "tag",
+                    "expand": true,
+                    "name": "prize_food"
+                }
+            ]
+        }
+    ]
+}

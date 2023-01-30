@@ -1,0 +1,210 @@
+{
+    "display": {
+        "icon": {
+            "item": "compass"
+        },
+        "title": "\u63a2\u7d22",
+        "description": "\u63a2\u7d22\u4e3b\u57ce\uff0c\u53d1\u73b0\u5f69\u86cb",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "hgt/root",
+    "criteria": {
+        "explore_burning_gas": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "hgt/burning_gas": true
+                        }
+                    }
+                }
+            }
+        },
+        "explore_eat_cake": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "hgt/eat_cake": true
+                        }
+                    }
+                }
+            }
+        },
+        "explore_greenhouse": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "hgt/greenhouse": true
+                        }
+                    }
+                }
+            }
+        },
+        "explore_hot_air_balloon": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "hgt/hot_air_balloon": true
+                        }
+                    }
+                }
+            }
+        },
+        "explore_loom": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "hgt/loom": true
+                        }
+                    }
+                }
+            }
+        },
+        "explore_touch_head": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "hgt/touch_head": true
+                        }
+                    }
+                }
+            }
+        },
+        "explore_trampoline": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "hgt/trampoline": true
+                        }
+                    }
+                }
+            }
+        },
+        "explore_treadmill": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "hgt/treadmill": true
+                        }
+                    }
+                }
+            }
+        },
+        "explore_under_water": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "hgt/under_water": true
+                        }
+                    }
+                }
+            }
+        },
+        "explore_water_of_jail": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "hgt/water_of_jail": true
+                        }
+                    }
+                }
+            }
+        },
+        "explore_wells": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "hgt/wells": true
+                        }
+                    }
+                }
+            }
+        },
+        "explore_behind_food": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "hgt/behind_food": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "explore_burning_gas"
+        ],
+        [
+            "explore_eat_cake"
+        ],
+        [
+            "explore_greenhouse"
+        ],
+        [
+            "explore_hot_air_balloon"
+        ],
+        [
+            "explore_loom"
+        ],
+        [
+            "explore_touch_head"
+        ],
+        [
+            "explore_trampoline"
+        ],
+        [
+            "explore_treadmill"
+        ],
+        [
+            "explore_under_water"
+        ],
+        [
+            "explore_water_of_jail"
+        ],
+        [
+            "explore_wells"
+        ],
+        [
+            "explore_behind_food"
+        ]
+    ]
+}

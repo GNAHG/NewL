@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "beehive"
+        },
+        "title": "\u55e1\u55e1\u8702\u7fa4",
+        "description": "\u7528\u82b1\u6735\u7e41\u6b96\u51fa\u5c0f\u871c\u8702",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "husbandry/root",
+    "criteria": {
+        "buzzy_bees": {
+            "conditions": {
+                "child": {
+                    "type": "bee"
+                }
+            },
+            "trigger": "bred_animals"
+        }
+    },
+    "requirements": [
+        [
+            "buzzy_bees"
+        ]
+    ]
+}

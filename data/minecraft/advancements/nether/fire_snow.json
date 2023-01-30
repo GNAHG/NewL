@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:snowball"
+        },
+        "title": "\u51b0\u4e0e\u706b\u4e4b\u6b4c",
+        "description": "\u7528\u96ea\u7403\u51fb\u6740\u4e00\u53ea\u70c8\u7130\u4eba\n\u611f\u53d7\u96ea\u4e2d\u9001\u70ad",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "nether/obtain_blaze_rod",
+    "criteria": {
+        "fire_snow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "blaze"
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "items": [
+                                    "snowball"
+                                ]
+                            }
+                        }
+                    },
+                    "is_projectile": true
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "fire_snow"
+        ]
+    ],
+    "rewards": {
+        "experience": 20
+    }
+}

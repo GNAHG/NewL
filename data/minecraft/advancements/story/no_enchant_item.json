@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:grindstone"
+        },
+        "title": "\u795b\u9b54\u5e08",
+        "description": "\u5728\u7802\u8f6e\u91cc\u795b\u9b54\u4e00\u6837\u7269\u54c1",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "story/enchant_item",
+    "criteria": {
+        "no_enchant_item": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                    "location": {
+                        "block": {
+                            "blocks": [
+                                "minecraft:grindstone"
+                            ]
+                        }
+                    }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "no_enchant_item"
+        ]
+    ]
+}

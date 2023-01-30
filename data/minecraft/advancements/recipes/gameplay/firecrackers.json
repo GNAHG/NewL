@@ -1,0 +1,28 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "firecrackers": {
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "spyglass"
+                            ],
+                            "nbt": "{CustomModelData:1}"
+                        }
+                    }
+                }
+            },
+            "trigger": "using_item"
+        }
+    },
+    "requirements": [
+        [
+            "firecrackers"
+        ]
+    ],
+    "rewards": {
+        "function": "ray/start/firecrackersray"
+    }
+}

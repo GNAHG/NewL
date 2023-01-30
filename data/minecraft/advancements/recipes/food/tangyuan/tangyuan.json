@@ -1,0 +1,32 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "tangyuan": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "note_block"
+                        ]
+                    },
+                    "smokey": true
+                },
+                "item": {
+                    "items": [
+                        "cookie"
+                    ],
+                    "nbt": "{CustomModelData:1}"
+                }
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "tangyuan"
+        ]
+    ],
+    "rewards": {
+        "function": "recipes/food/tangyuan/tangyuan"
+    }
+}

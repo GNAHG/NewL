@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "white_wool"
+        },
+        "title": "\u8d77\u98de~",
+        "description": "\u4f46\u70ed\u6c14\u7403\u5e76\u4e0d\u80fd\u98de",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "hgt/explore",
+    "criteria": {
+        "hot_air_balloon": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "hot_air_balloon"
+        ]
+    ]
+}

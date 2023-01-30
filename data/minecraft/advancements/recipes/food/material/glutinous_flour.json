@@ -1,0 +1,39 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "glutinous_flour": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "note_block"
+                        ]
+                    }
+                },
+                "item": {
+                    "items": [
+                        "wheat"
+                    ]
+                },
+                "player": {
+                    "location": {
+                        "block": {
+                            "blocks": [
+                                "water"
+                            ]
+                        }
+                    }
+                }
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "glutinous_flour"
+        ]
+    ],
+    "rewards": {
+        "function": "recipes/food/material/glutinous_flour"
+    }
+}

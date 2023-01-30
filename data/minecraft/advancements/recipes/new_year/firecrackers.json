@@ -1,0 +1,30 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "firecrackers": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "note_block"
+                        ]
+                    }
+                },
+                "item": {
+                    "items": [
+                        "gunpowder"
+                    ]
+                }
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "firecrackers"
+        ]
+    ],
+    "rewards": {
+        "function": "recipes/new_year/firecrackers"
+    }
+}

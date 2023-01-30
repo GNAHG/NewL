@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "stone_button"
+        },
+        "title": "\u7f8e\u98df\u4e4b\u540e",
+        "description": "\u6709\u4e2a\u6309\u94ae\uff1f",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "hgt/explore",
+    "criteria": {
+        "water_of_jail": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "water_of_jail"
+        ]
+    ]
+}

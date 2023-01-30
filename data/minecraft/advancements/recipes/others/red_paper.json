@@ -1,0 +1,31 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "red_paper": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "note_block"
+                        ]
+                    }
+                },
+                "item": {
+                    "items": [
+                        "paper"
+                    ],
+                    "nbt": "{CustomModelData:1}"
+                }
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "red_paper"
+        ]
+    ],
+    "rewards": {
+        "function": "recipes/others/red_paper"
+    }
+}

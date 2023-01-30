@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_block"
+        },
+        "title": "\u6574\u88c5\u5f85\u53d1",
+        "description": "\u83b7\u5f97\u4e00\u6574\u5957\u94bb\u77f3\u76d4\u7532",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "story/shiny_gear",
+    "criteria": {
+        "more_diamonds": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond_boots"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:diamond_chestplate"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:diamond_leggings"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:diamond_helmet"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "more_diamonds"
+        ]
+    ]
+}

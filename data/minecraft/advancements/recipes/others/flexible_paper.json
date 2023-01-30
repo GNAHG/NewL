@@ -1,0 +1,62 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "flexible_paper": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "loom"
+                        ]
+                    }
+                },
+                "item": {
+                    "items": [
+                        "paper"
+                    ]
+                },
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "alternative",
+                            "terms": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "mainhand": {
+                                                "nbt": "{CustomModelData:1}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "mainhand": {
+                                                "nbt": "{CustomModelData:2}"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "flexible_paper"
+        ]
+    ],
+    "rewards": {
+        "function": "recipes/others/flexible_paper"
+    }
+}

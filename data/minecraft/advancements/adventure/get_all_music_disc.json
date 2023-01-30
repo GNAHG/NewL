@@ -1,0 +1,247 @@
+{
+    "display": {
+        "icon": {
+            "item": "jukebox",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "\u97f3\u4e50\u7684\u529b\u91cf",
+        "description": "\u96c6\u9f50\u6240\u6709\u5531\u7247\nBy iceland2418896",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/play_jukebox_in_meadows",
+    "criteria": {
+        "get_all_music_disc_13": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "music_disc_13"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_music_disc_cat": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "music_disc_cat"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_music_disc_blocks": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "music_disc_blocks"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_music_disc_chirp": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "music_disc_chirp"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_music_disc_far": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "music_disc_far"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_music_disc_mall": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "music_disc_mall"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_music_disc_mellohi": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "music_disc_mellohi"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_music_disc_stal": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "music_disc_stal"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_music_disc_strad": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "music_disc_strad"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_music_disc_ward": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "music_disc_ward"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_music_disc_11": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "music_disc_11"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_music_disc_wait": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "music_disc_wait"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_music_disc_pigstep": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "music_disc_pigstep"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_music_disc_otherside": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "music_disc_otherside"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_music_disc_5": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "music_disc_5"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "get_all_music_disc_13"
+        ],
+        [
+            "get_all_music_disc_cat"
+        ],
+        [
+            "get_all_music_disc_blocks"
+        ],
+        [
+            "get_all_music_disc_chirp"
+        ],
+        [
+            "get_all_music_disc_far"
+        ],
+        [
+            "get_all_music_disc_mall"
+        ],
+        [
+            "get_all_music_disc_mellohi"
+        ],
+        [
+            "get_all_music_disc_stal"
+        ],
+        [
+            "get_all_music_disc_strad"
+        ],
+        [
+            "get_all_music_disc_ward"
+        ],
+        [
+            "get_all_music_disc_11"
+        ],
+        [
+            "get_all_music_disc_wait"
+        ],
+        [
+            "get_all_music_disc_pigstep"
+        ],
+        [
+            "get_all_music_disc_otherside"
+        ],
+        [
+            "get_all_music_disc_5"
+        ]
+    ],
+    "rewards": {
+        "experience": 100
+    }
+}

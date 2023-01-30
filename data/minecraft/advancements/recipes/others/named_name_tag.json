@@ -1,0 +1,46 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "named_name_tag": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "note_block"
+                        ]
+                    }
+                },
+                "item": {
+                    "items": [
+                        "name_tag"
+                    ]
+                },
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "mainhand": {
+                                        "nbt": "{CustomModelData:1}"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "named_name_tag"
+        ]
+    ],
+    "rewards": {
+        "function": "recipes/others/named_name_tag"
+    }
+}

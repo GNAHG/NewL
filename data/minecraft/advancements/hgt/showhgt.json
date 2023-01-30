@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "spyglass"
+        },
+        "title": "\u5982\u4f55\u83b7\u5f97\uff1f",
+        "description": "\u89e6\u53d1\u6210\u5c31\u7684\u673a\u5173\n\u4e5f\u8bb8\u662f\u76f4\u63a5\u53f3\u952e\n\u6216\u8005\u662f\u6309\u94ae\n\u8c01\u77e5\u9053\u5462\uff1f",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "hgt/root",
+    "criteria": {
+        "showhgt": {
+            "trigger": "tick"
+        }
+    },
+    "requirements": [
+        [
+            "showhgt"
+        ]
+    ]
+}

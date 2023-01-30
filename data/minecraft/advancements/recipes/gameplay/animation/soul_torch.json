@@ -1,0 +1,27 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "soul_torch": {
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "soul_torch"
+                            ]
+                        }
+                    }
+                }
+            },
+            "trigger": "location"
+        }
+    },
+    "requirements": [
+        [
+            "soul_torch"
+        ]
+    ],
+    "rewards": {
+        "function": "gameplay/animation/soul_torch"
+    }
+}

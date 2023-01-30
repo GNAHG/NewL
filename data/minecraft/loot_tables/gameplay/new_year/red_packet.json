@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:advancement_reward",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "gameplay/new_year/prize_3",
+                    "weight": 60,
+                    "quality": -1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "gameplay/new_year/prize_2",
+                    "weight": 35,
+                    "quality": 0
+                },
+                {
+                    "type": "loot_table",
+                    "name": "gameplay/new_year/prize_1",
+                    "weight": 5,
+                    "quality": 1
+                }
+            ]
+        }
+    ]
+}

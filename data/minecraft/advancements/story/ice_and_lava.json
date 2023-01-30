@@ -1,0 +1,76 @@
+{
+    "display": {
+        "icon": {
+            "item": "magma_block"
+        },
+        "title": "\u51b0\u706b\u4e24\u91cd",
+        "description": "\u540c\u65f6\u624b\u6301\u51b0\u5757\u548c\u5ca9\u6d46\u5757\nBy Po__xiao",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "story/form_obsidian",
+    "criteria": {
+        "ice_and_lava": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "magma_block",
+                            "ice"
+                        ]
+                    }
+                ],
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "ice"
+                            ]
+                        },
+                        "offhand": {
+                            "items": [
+                                "magma_block"
+                            ]
+                        }
+                    }
+                }
+            },
+            "trigger": "inventory_changed"
+        },
+        "lava_and_ice": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "magma_block",
+                            "ice"
+                        ]
+                    }
+                ],
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "magma_block"
+                            ]
+                        },
+                        "offhand": {
+                            "items": [
+                                "ice"
+                            ]
+                        }
+                    }
+                }
+            },
+            "trigger": "inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "ice_and_lava",
+            "lava_and_ice"
+        ]
+    ]
+}

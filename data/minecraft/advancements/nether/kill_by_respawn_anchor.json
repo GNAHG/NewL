@@ -1,0 +1,59 @@
+{
+    "display": {
+        "icon": {
+            "item": "respawn_anchor",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "\u201c\u91cd\u751f\u951a\u201d\uff1f",
+        "description": "\u7528\u91cd\u751f\u951a\u51fb\u8d25\u4f60\u81ea\u5df1\nBy bad",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "nether/charge_respawn_anchor",
+    "criteria": {
+        "kill_by_respawn_anchor_overworld": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "respawn_anchor"
+                        ],
+                        "state": {
+                            "charges": {
+                                "min": 1
+                            }
+                        }
+                    },
+                    "dimension": "overworld"
+                }
+            },
+            "trigger": "item_used_on_block"
+        },
+        "kill_by_respawn_anchor_the_end": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "respawn_anchor"
+                        ],
+                        "state": {
+                            "charges": {
+                                "min": 1
+                            }
+                        }
+                    },
+                    "dimension": "the_end"
+                }
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "kill_by_respawn_anchor_overworld",
+            "kill_by_respawn_anchor_the_end"
+        ]
+    ]
+}

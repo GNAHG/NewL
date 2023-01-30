@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "diamond_axe"
+        },
+        "title": "\u529b\u91cf\u611f",
+        "description": "\u4e00\u51fb\u9020\u621015\u9897\u5fc3\u7684\u4f24\u5bb3",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/kill_a_mob",
+    "criteria": {
+        "overkill": {
+            "conditions": {
+                "damage": {
+                    "dealt": {
+                        "min": 15
+                    }
+                }
+            },
+            "trigger": "player_hurt_entity"
+        }
+    },
+    "requirements": [
+        [
+            "overkill"
+        ]
+    ],
+    "rewards": {
+        "experience": 30
+    }
+}

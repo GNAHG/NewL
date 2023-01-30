@@ -1,0 +1,31 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "raw_tangyuan": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "note_block"
+                        ]
+                    }
+                },
+                "item": {
+                    "items": [
+                        "clay_ball"
+                    ],
+                    "nbt": "{CustomModelData:2}"
+                }
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "raw_tangyuan"
+        ]
+    ],
+    "rewards": {
+        "function": "recipes/food/tangyuan/raw_tangyuan"
+    }
+}

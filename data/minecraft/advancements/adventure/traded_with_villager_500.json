@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "item": "emerald_block"
+        },
+        "title": "\u4ea4\u6613\u5927\u5e08",
+        "description": "\u4e0e\u6751\u6c11\u4ea4\u6613500\u6b21\nBy xiaobaiya54188",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/trade",
+    "criteria": {
+        "traded_with_villager_500": {
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "custom",
+                                "stat": "traded_with_villager",
+                                "value": {
+                                    "min": 500
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "trigger": "villager_trade"
+        }
+    },
+    "requirements": [
+        [
+            "traded_with_villager_500"
+        ]
+    ],
+    "rewards": {
+        "experience": 100
+    }
+}

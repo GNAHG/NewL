@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:advancement_reward",
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "tag",
+                    "expand": true,
+                    "name": "prize_low_ore"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "gameplay/fishing/junk"
+                }
+            ]
+        },
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "tag",
+                    "expand": true,
+                    "name": "prize_low_food",
+                    "weight": 70
+                },
+                {
+                    "type": "empty",
+                    "weight": 30,
+                    "quality": -1
+                }
+            ]
+        }
+    ]
+}

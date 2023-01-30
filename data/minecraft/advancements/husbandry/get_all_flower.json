@@ -1,0 +1,242 @@
+{
+    "display": {
+        "icon": {
+            "item": "poppy"
+        },
+        "title": "\u4f60\u4e0d\u8fc7\u654f\u5417\uff1f",
+        "description": "\u6536\u96c6\u6240\u6709\u7684\u82b1\nBy \u6012\u5bfc(Angrydirector64)",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "husbandry/complete_catalogue",
+    "criteria": {
+        "get_all_flower_dandelion": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["dandelion"]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_flower_poppy": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["poppy"]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_flower_blue_orchid": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["blue_orchid"]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_flower_allium": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["allium"]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_flower_azure_bluet": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["azure_bluet"]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_flower_red_tulip": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["red_tulip"]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_flower_orange_tulip": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["orange_tulip"]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_flower_white_tulip": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["white_tulip"]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_flower_pink_tulip": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["pink_tulip"]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_flower_oxeye_daisy": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["oxeye_daisy"]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_flower_cornflower": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["cornflower"]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_flower_lily_of_the_valley": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["lily_of_the_valley"]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_flower_wither_rose": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["wither_rose"]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_flower_sunflower": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["sunflower"]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_flower_lilac": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["lilac"]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_flower_rose_bush": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["rose_bush"]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        },
+        "get_all_flower_peony": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["peony"]
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "get_all_flower_dandelion"
+        ],
+        [
+            "get_all_flower_poppy"
+        ],
+        [
+            "get_all_flower_blue_orchid"
+        ],
+        [
+            "get_all_flower_allium"
+        ],
+        [
+            "get_all_flower_azure_bluet"
+        ],
+        [
+            "get_all_flower_red_tulip"
+        ],
+        [
+            "get_all_flower_orange_tulip"
+        ],
+        [
+            "get_all_flower_white_tulip"
+        ],
+        [
+            "get_all_flower_pink_tulip"
+        ],
+        [
+            "get_all_flower_oxeye_daisy"
+        ],
+        [
+            "get_all_flower_cornflower"
+        ],
+        [
+            "get_all_flower_lily_of_the_valley"
+        ],
+        [
+            "get_all_flower_wither_rose"
+        ],
+        [
+            "get_all_flower_sunflower"
+        ],
+        [
+            "get_all_flower_lilac"
+        ],
+        [
+            "get_all_flower_rose_bush"
+        ],
+        [
+            "get_all_flower_peony"
+        ]
+    ],
+    "rewards": {
+        "experience": 50
+    }
+}

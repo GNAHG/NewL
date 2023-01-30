@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{Potion: fire_resistance}"
+        },
+        "title": "\u7194\u5ca9\u4e4b\u8dc3",
+        "description": "\u4f7f\u7528\u5ca9\u6d46\u843d\u5730\u5e76\u4e0d\u53d7\u5230\u4f24\u5bb3",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "story/lava_bucket",
+    "criteria": {
+        "lava_fall": {
+            "trigger": "fall_from_height",
+            "conditions": {
+                "player": {
+                    "effects": {
+                        "fire_resistance": {}
+                    },
+                    "location": {
+                        "fluid": {
+                            "fluid": "lava"
+                        }
+                    }
+                },
+                "distance": {
+                    "absolute": {
+                        "min": 3
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "lava_fall"
+        ]
+    ]
+}

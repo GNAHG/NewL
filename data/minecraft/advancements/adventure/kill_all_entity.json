@@ -1,0 +1,780 @@
+{
+    "display": {
+        "icon": {
+            "item": "skeleton_skull"
+        },
+        "title": "\u6b7b\u795e",
+        "description": "\u6740\u6b7b\u6240\u6709\u80fd\u88ab\u6740\u6b7b\u7684\u751f\u7269\nBy Po__xiao",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/kill_all_mobs",
+    "criteria": {
+        "kill_all_entity_allay": {
+            "conditions": {
+                "entity": {
+                    "type": "allay"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_blaze": {
+            "conditions": {
+                "entity": {
+                    "type": "blaze"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_cave_spider": {
+            "conditions": {
+                "entity": {
+                    "type": "cave_spider"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_creeper": {
+            "conditions": {
+                "entity": {
+                    "type": "creeper"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_drowned": {
+            "conditions": {
+                "entity": {
+                    "type": "drowned"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_elder_guardian": {
+            "conditions": {
+                "entity": {
+                    "type": "elder_guardian"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_ender_dragon": {
+            "conditions": {
+                "entity": {
+                    "type": "ender_dragon"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_enderman": {
+            "conditions": {
+                "entity": {
+                    "type": "enderman"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_endermite": {
+            "conditions": {
+                "entity": {
+                    "type": "endermite"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_evoker": {
+            "conditions": {
+                "entity": {
+                    "type": "evoker"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_ghast": {
+            "conditions": {
+                "entity": {
+                    "type": "ghast"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_guardian": {
+            "conditions": {
+                "entity": {
+                    "type": "guardian"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_hoglin": {
+            "conditions": {
+                "entity": {
+                    "type": "hoglin"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_husk": {
+            "conditions": {
+                "entity": {
+                    "type": "husk"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_ravager": {
+            "conditions": {
+                "entity": {
+                    "type": "ravager"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_magma_cube": {
+            "conditions": {
+                "entity": {
+                    "type": "magma_cube"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_phantom": {
+            "conditions": {
+                "entity": {
+                    "type": "phantom"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_piglin": {
+            "conditions": {
+                "entity": {
+                    "type": "piglin"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_piglin_brute": {
+            "conditions": {
+                "entity": {
+                    "type": "piglin_brute"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_pillager": {
+            "conditions": {
+                "entity": {
+                    "type": "pillager"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_pufferfish": {
+            "conditions": {
+                "entity": {
+                    "type": "pufferfish"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_shulker": {
+            "conditions": {
+                "entity": {
+                    "type": "shulker"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_silverfish": {
+            "conditions": {
+                "entity": {
+                    "type": "silverfish"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_skeleton": {
+            "conditions": {
+                "entity": {
+                    "type": "skeleton"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_slime": {
+            "conditions": {
+                "entity": {
+                    "type": "slime"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_spider": {
+            "conditions": {
+                "entity": {
+                    "type": "spider"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_stray": {
+            "conditions": {
+                "entity": {
+                    "type": "stray"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_vex": {
+            "conditions": {
+                "entity": {
+                    "type": "vex"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_vindicator": {
+            "conditions": {
+                "entity": {
+                    "type": "vindicator"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_warden": {
+            "conditions": {
+                "entity": {
+                    "type": "warden"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_witch": {
+            "conditions": {
+                "entity": {
+                    "type": "witch"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_wither": {
+            "conditions": {
+                "entity": {
+                    "type": "wither"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_wither_skeleton": {
+            "conditions": {
+                "entity": {
+                    "type": "wither_skeleton"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_zombie": {
+            "conditions": {
+                "entity": {
+                    "type": "zombie"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_zombie_villager": {
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_zombified_piglin": {
+            "conditions": {
+                "entity": {
+                    "type": "zombified_piglin"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_zoglin": {
+            "conditions": {
+                "entity": {
+                    "type": "zoglin"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_axolotl": {
+            "conditions": {
+                "entity": {
+                    "type": "axolotl"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_bat": {
+            "conditions": {
+                "entity": {
+                    "type": "bat"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_cat": {
+            "conditions": {
+                "entity": {
+                    "type": "cat"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_chicken": {
+            "conditions": {
+                "entity": {
+                    "type": "chicken"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_cod": {
+            "conditions": {
+                "entity": {
+                    "type": "cod"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_cow": {
+            "conditions": {
+                "entity": {
+                    "type": "cow"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_dolphin": {
+            "conditions": {
+                "entity": {
+                    "type": "dolphin"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_donkey": {
+            "conditions": {
+                "entity": {
+                    "type": "donkey"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_frog": {
+            "conditions": {
+                "entity": {
+                    "type": "frog"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_glow_squid": {
+            "conditions": {
+                "entity": {
+                    "type": "glow_squid"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_goat": {
+            "conditions": {
+                "entity": {
+                    "type": "goat"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_horse": {
+            "conditions": {
+                "entity": {
+                    "type": "horse"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_iron_golem": {
+            "conditions": {
+                "entity": {
+                    "type": "iron_golem"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_llama": {
+            "conditions": {
+                "entity": {
+                    "type": "llama"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_mooshroom": {
+            "conditions": {
+                "entity": {
+                    "type": "mooshroom"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_mule": {
+            "conditions": {
+                "entity": {
+                    "type": "mule"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_ocelot": {
+            "conditions": {
+                "entity": {
+                    "type": "ocelot"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_panda": {
+            "conditions": {
+                "entity": {
+                    "type": "panda"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_parrot": {
+            "conditions": {
+                "entity": {
+                    "type": "parrot"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_pig": {
+            "conditions": {
+                "entity": {
+                    "type": "pig"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_polar_bear": {
+            "conditions": {
+                "entity": {
+                    "type": "polar_bear"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_rabbit": {
+            "conditions": {
+                "entity": {
+                    "type": "rabbit"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_salmon": {
+            "conditions": {
+                "entity": {
+                    "type": "salmon"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_sheep": {
+            "conditions": {
+                "entity": {
+                    "type": "sheep"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_skeleton_horse": {
+            "conditions": {
+                "entity": {
+                    "type": "skeleton_horse"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_snow_golem": {
+            "conditions": {
+                "entity": {
+                    "type": "snow_golem"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_squid": {
+            "conditions": {
+                "entity": {
+                    "type": "squid"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_tadpole": {
+            "conditions": {
+                "entity": {
+                    "type": "tadpole"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_tropical_fish": {
+            "conditions": {
+                "entity": {
+                    "type": "tropical_fish"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_turtle": {
+            "conditions": {
+                "entity": {
+                    "type": "turtle"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_villager": {
+            "conditions": {
+                "entity": {
+                    "type": "villager"
+                }
+            },
+            "trigger": "player_killed_entity"
+        },
+        "kill_all_entity_wolf": {
+            "conditions": {
+                "entity": {
+                    "type": "wolf"
+                }
+            },
+            "trigger": "player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "kill_all_entity_allay"
+        ],
+        [
+            "kill_all_entity_blaze"
+        ],
+        [
+            "kill_all_entity_cave_spider"
+        ],
+        [
+            "kill_all_entity_creeper"
+        ],
+        [
+            "kill_all_entity_drowned"
+        ],
+        [
+            "kill_all_entity_elder_guardian"
+        ],
+        [
+            "kill_all_entity_ender_dragon"
+        ],
+        [
+            "kill_all_entity_enderman"
+        ],
+        [
+            "kill_all_entity_endermite"
+        ],
+        [
+            "kill_all_entity_evoker"
+        ],
+        [
+            "kill_all_entity_ghast"
+        ],
+        [
+            "kill_all_entity_guardian"
+        ],
+        [
+            "kill_all_entity_hoglin"
+        ],
+        [
+            "kill_all_entity_husk"
+        ],
+        [
+            "kill_all_entity_ravager"
+        ],
+        [
+            "kill_all_entity_magma_cube"
+        ],
+        [
+            "kill_all_entity_phantom"
+        ],
+        [
+            "kill_all_entity_piglin"
+        ],
+        [
+            "kill_all_entity_piglin_brute"
+        ],
+        [
+            "kill_all_entity_pillager"
+        ],
+        [
+            "kill_all_entity_pufferfish"
+        ],
+        [
+            "kill_all_entity_shulker"
+        ],
+        [
+            "kill_all_entity_silverfish"
+        ],
+        [
+            "kill_all_entity_skeleton"
+        ],
+        [
+            "kill_all_entity_slime"
+        ],
+        [
+            "kill_all_entity_spider"
+        ],
+        [
+            "kill_all_entity_stray"
+        ],
+        [
+            "kill_all_entity_vex"
+        ],
+        [
+            "kill_all_entity_vindicator"
+        ],
+        [
+            "kill_all_entity_warden"
+        ],
+        [
+            "kill_all_entity_witch"
+        ],
+        [
+            "kill_all_entity_wither"
+        ],
+        [
+            "kill_all_entity_wither_skeleton"
+        ],
+        [
+            "kill_all_entity_zombie"
+        ],
+        [
+            "kill_all_entity_zombie_villager"
+        ],
+        [
+            "kill_all_entity_zombified_piglin"
+        ],
+        [
+            "kill_all_entity_zoglin"
+        ],
+        [
+            "kill_all_entity_axolotl"
+        ],
+        [
+            "kill_all_entity_bat"
+        ],
+        [
+            "kill_all_entity_cat"
+        ],
+        [
+            "kill_all_entity_chicken"
+        ],
+        [
+            "kill_all_entity_cod"
+        ],
+        [
+            "kill_all_entity_cow"
+        ],
+        [
+            "kill_all_entity_dolphin"
+        ],
+        [
+            "kill_all_entity_donkey"
+        ],
+        [
+            "kill_all_entity_frog"
+        ],
+        [
+            "kill_all_entity_glow_squid"
+        ],
+        [
+            "kill_all_entity_goat"
+        ],
+        [
+            "kill_all_entity_horse"
+        ],
+        [
+            "kill_all_entity_iron_golem"
+        ],
+        [
+            "kill_all_entity_llama"
+        ],
+        [
+            "kill_all_entity_mooshroom"
+        ],
+        [
+            "kill_all_entity_mule"
+        ],
+        [
+            "kill_all_entity_ocelot"
+        ],
+        [
+            "kill_all_entity_panda"
+        ],
+        [
+            "kill_all_entity_parrot"
+        ],
+        [
+            "kill_all_entity_pig"
+        ],
+        [
+            "kill_all_entity_polar_bear"
+        ],
+        [
+            "kill_all_entity_rabbit"
+        ],
+        [
+            "kill_all_entity_salmon"
+        ],
+        [
+            "kill_all_entity_sheep"
+        ],
+        [
+            "kill_all_entity_skeleton_horse"
+        ],
+        [
+            "kill_all_entity_snow_golem"
+        ],
+        [
+            "kill_all_entity_squid"
+        ],
+        [
+            "kill_all_entity_tadpole"
+        ],
+        [
+            "kill_all_entity_tropical_fish"
+        ],
+        [
+            "kill_all_entity_turtle"
+        ],
+        [
+            "kill_all_entity_villager"
+        ],
+        [
+            "kill_all_entity_wolf"
+        ]
+    ],
+    "rewards": {
+        "experience": 2000
+    }
+}

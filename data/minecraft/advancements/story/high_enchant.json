@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "title": "\u9ad8\u6d88\u8d39",
+        "description": "\u6d88\u80173\u7ea7\u7ecf\u9a8c\u6765\u9644\u9b54",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "story/enchant_item",
+    "criteria": {
+        "high_enchant": {
+            "trigger": "enchanted_item",
+            "conditions": {
+                "levels": 3
+            }
+        }
+    },
+    "requirements": [
+        [
+            "high_enchant"
+        ]
+    ]
+}
