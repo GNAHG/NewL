@@ -1,8 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": {
-        "item": "oak_log"
-    },
-    "count": 2,
-    "result": "oak_slab"
-}

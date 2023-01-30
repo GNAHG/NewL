@@ -1,0 +1,179 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:5}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "\u67e0\u6aac",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:6}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "\u8292\u679c",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:7}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "\u6a59\u5b50",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:8}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "\u6843\u5b50",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:9}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "\u68a8",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:10}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "\u83e0\u841d",
+                                "italic": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:11}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "\u8349\u8393",
+                                "italic": false
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1.0
+        }
+    ]
+}

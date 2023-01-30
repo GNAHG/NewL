@@ -1,8 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": {
-        "item": "spruce_log"
-    },
-    "count": 5,
-    "result": "spruce_planks"
-}

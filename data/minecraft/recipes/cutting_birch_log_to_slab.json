@@ -1,8 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": {
-        "item": "birch_log"
-    },
-    "count": 2,
-    "result": "birch_slab"
-}

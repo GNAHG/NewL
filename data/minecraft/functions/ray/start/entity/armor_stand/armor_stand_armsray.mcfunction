@@ -1,1 +1,0 @@
-execute anchored eyes run function ray/entity/armor_stand/armor_stand_armsray

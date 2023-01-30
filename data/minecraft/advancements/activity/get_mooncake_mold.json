@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "bowl",
+            "nbt": "{CustomModelData:1}"
+        },
+        "title": "\u6708\u997c\u6a21\u5177",
+        "description": "\u53ea\u80fd\u505a\u6708\u997c\u4e86",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "activity/get_wheat",
+    "criteria": {
+        "get_mooncake_mold": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "bowl"
+                        ],
+                        "nbt": "{CustomModelData:1}"
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "get_mooncake_mold"
+        ]
+    ]
+}

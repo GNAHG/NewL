@@ -1,0 +1,31 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "furit_grape": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "note_block"
+                        ]
+                    }
+                },
+                "item": {
+                    "items": [
+                        "apple"
+                    ],
+                    "nbt": "{CustomModelData:3}"
+                }
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "furit_grape"
+        ]
+    ],
+    "rewards": {
+        "function": "recipes/food/mooncake/fruit/grape_mooncake"
+    }
+}

@@ -1,6 +1,0 @@
-[
-    {
-        "function": "minecraft:set_nbt",
-        "tag": "{CustomModelData:1,display:{Name:'{\"italic\":false,\"text\":\"物品标记牌\"}'}}"
-    }
-]

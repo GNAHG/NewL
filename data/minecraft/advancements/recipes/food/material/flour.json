@@ -1,0 +1,48 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "flour": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "note_block"
+                        ]
+                    }
+                },
+                "item": {
+                    "items": [
+                        "wheat"
+                    ]
+                },
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "location": {
+                                    "block": {
+                                        "blocks": [
+                                            "water"
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "flour"
+        ]
+    ],
+    "rewards": {
+        "function": "recipes/food/material/flour"
+    }
+}

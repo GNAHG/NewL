@@ -1,8 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": {
-        "item": "acacia_log"
-    },
-    "count": 2,
-    "result": "acacia_slab"
-}

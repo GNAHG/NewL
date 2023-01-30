@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "sugar",
+            "nbt": "{CustomModelData:1}"
+        },
+        "title": "\u9762\u7c89",
+        "description": "\u52e4\u52b3\u7684\u63c9\u9762\u5e08\u5085",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "activity/get_wheat",
+    "criteria": {
+        "get_flour": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "sugar"
+                        ],
+                        "nbt": "{CustomModelData:1}"
+                    }
+                ]
+            },
+            "trigger": "inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "get_flour"
+        ]
+    ]
+}

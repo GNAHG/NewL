@@ -1,8 +1,0 @@
-{
-    "type": "stonecutting",
-    "ingredient": {
-        "item": "spruce_log"
-    },
-    "count": 2,
-    "result": "spruce_slab"
-}
