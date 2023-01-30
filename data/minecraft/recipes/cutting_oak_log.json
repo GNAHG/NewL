@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "item": "oak_log"
+    },
+    "count": 5,
+    "result": "oak_planks"
+}

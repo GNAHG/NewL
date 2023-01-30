@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "planks"
+    },
+    "count": 4,
+    "result": "stick"
+}

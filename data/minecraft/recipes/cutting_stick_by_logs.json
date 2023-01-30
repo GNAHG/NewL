@@ -1,0 +1,8 @@
+{
+    "type": "stonecutting",
+    "ingredient": {
+        "tag": "logs"
+    },
+    "count": 28,
+    "result": "stick"
+}

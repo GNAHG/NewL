@@ -1,0 +1,16 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "enchanted_item": {
+            "trigger": "enchanted_item"
+        }
+    },
+    "requirements": [
+        [
+            "enchanted_item"
+        ]
+    ],
+    "rewards": {
+        "function": "gameplay/animation/enchanted_item"
+    }
+}
