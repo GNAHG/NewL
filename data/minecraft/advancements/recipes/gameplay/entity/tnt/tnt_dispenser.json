@@ -1,0 +1,31 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "tnt_dispenser": {
+            "conditions": {
+                "item": {
+                    "items": [
+                        "spyglass"
+                    ]
+                },
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "looking_at": {
+                            "type": "tnt"
+                        }
+                    }
+                }
+            },
+            "trigger": "using_item"
+        }
+    },
+    "requirements": [
+        [
+            "tnt_dispenser"
+        ]
+    ],
+    "rewards": {
+        "function": "ray/start/entity/tnt/tnt_dispenserray"
+    }
+}

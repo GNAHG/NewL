@@ -13,7 +13,7 @@
                     }
                 }
             },
-            "trigger": "location"
+            "trigger": "tick"
         }
     },
     "requirements": [

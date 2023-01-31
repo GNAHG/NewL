@@ -1,0 +1,34 @@
+{
+    "parent": "recipes/root",
+    "criteria": {
+        "shoot_tnt": {
+            "conditions": {
+                "item": {
+                    "items": [
+                        "spyglass"
+                    ]
+                },
+                "player": {
+                    "flags": {
+                        "is_sneaking": true
+                    },
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "recipes/gameplay/entity/tnt/tnt_dispenser": true
+                        }
+                    }
+                }
+            },
+            "trigger": "using_item"
+        }
+    },
+    "requirements": [
+        [
+            "shoot_tnt"
+        ]
+    ],
+    "rewards": {
+        "function": "gameplay/entity/tnt/shoot_tnt"
+    }
+}
