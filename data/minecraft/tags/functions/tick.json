@@ -1,5 +1,6 @@
 {
     "values": [
-        "gameplay/entity/leash_knot/tick_kill_leash_knot"
+        "gameplay/entity/leash_knot/tick_kill_leash_knot",
+        "gameplay/item/coin/detect_coin"
     ]
 }

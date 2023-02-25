@@ -6,16 +6,18 @@
                 "item": {
                     "items": [
                         "spyglass"
-                    ]
+                    ],
+                    "nbt": "{Tags:[\"loaded\"]}"
                 },
                 "player": {
                     "flags": {
                         "is_sneaking": true
                     },
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "recipes/gameplay/entity/tnt/tnt_dispenser": true
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "spyglass"
+                            ]
                         }
                     }
                 }

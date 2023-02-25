@@ -1,6 +1,4 @@
-[
-    {
-        "function": "minecraft:set_nbt",
-        "tag": "{Tags:[\"named\"]}"
-    }
-]
+{
+    "function": "minecraft:set_nbt",
+    "tag": "{Tags:[\"named\"]}"
+}

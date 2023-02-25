@@ -8,14 +8,55 @@
                         "spyglass"
                     ]
                 },
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "looking_at": {
-                            "type": "tnt"
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "looking_at": {
+                                    "type": "tnt"
+                                }
+                            },
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "spyglass"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "mainhand": {
+                                        "nbt": "{Tags:[\"loaded\"]}"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "offhand": {
+                                        "nbt": "{Tags:[\"loaded\"]}"
+                                    }
+                                }
+                            }
                         }
                     }
-                }
+                ]
             },
             "trigger": "using_item"
         }
