@@ -1,4 +1,4 @@
-loot replace entity @s armor.head loot gameplay/item/dice
+loot replace entity @s armor.head loot newl:gameplay/item/dice
 execute store result entity @s Tags[2] int 1 run data get entity @s ArmorItems[3]."tag".Tags[0]
 execute if entity @s[nbt={ArmorItems:[{"tag":{Tags:["1"]}}]}] run function newl:gameplay/entity/dice/summon_dice_1
 execute if entity @s[nbt={ArmorItems:[{"tag":{Tags:["2"]}}]}] run function newl:gameplay/entity/dice/summon_dice_2

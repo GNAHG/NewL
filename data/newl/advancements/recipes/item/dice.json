@@ -1,0 +1,72 @@
+{
+    "parent": "newl:gameplay/root",
+    "criteria": {
+        "dice": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "tag":"pressure_plates"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "location_check",
+                        "offsetY": -1,
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "chiseled_quartz_block"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "gilded_blackstone"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "location_check",
+                        "offsetY": -3,
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "chiseled_quartz_block"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "location_check",
+                        "offsetY": -4,
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "piston"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "location"
+        }
+    },
+    "requirements": [
+        [
+            "dice"
+        ]
+    ],
+    "rewards": {
+        "function": "newl:recipes/item/dice"
+    }
+}

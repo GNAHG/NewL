@@ -41,6 +41,6 @@
         ]
     ],
     "rewards": {
-        "function": "newl:recipes/others/named_name_tag"
+        "function": "newl:recipes/item/named_name_tag"
     }
 }

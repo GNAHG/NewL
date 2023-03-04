@@ -2,6 +2,7 @@
     "values": [
         "newl:gameplay/entity/leash_knot/tick_kill_leash_knot",
         "newl:gameplay/entity/coin/detect_coin",
+        "newl:gameplay/entity/dice/detect_dice",
         "newl:gameplay/entity/dice/kill_dice"
     ]
 }

@@ -1,5 +1,4 @@
 #declare objective newltemp Newl 缓存
-#declare tag entity_marker_coin 标记 合成的 coin 掉落物
 #declare tag entity_marker NBT Pos 转为 NBT Motion 的标记
 #declare tag entity_marker_dice 标记 dice 的生成
 #declare tag entity_dice 标记 dice

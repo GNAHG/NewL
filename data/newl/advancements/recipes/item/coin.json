@@ -1,0 +1,52 @@
+{
+    "parent": "newl:gameplay/root",
+    "criteria": {
+        "coin": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "tag": "anvil"
+                    }
+                },
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "mainhand": {
+                                        "nbt": "{Tags:[\"coin\"]}"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "iron_nugget"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "coin"
+        ]
+    ],
+    "rewards": {
+        "function": "newl:recipes/item/coin"
+    }
+}

@@ -1,0 +1,4 @@
+{
+    "function": "set_nbt",
+    "tag": "{display:{Name:'{\"italic\": false,\"text\": \"硬币\"}'},Tags:[\"coin\"],Enchantments:[{lvl:1,id:\"infinity\"}]}"
+}
