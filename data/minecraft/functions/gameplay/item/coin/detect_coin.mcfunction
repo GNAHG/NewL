@@ -1,4 +1,0 @@
-execute as @e[type=item,nbt={Item: {id: "minecraft:iron_nugget"}}] at @s if entity @e[distance=..0.7,type=falling_block,nbt={BlockState:{Name: "minecraft:anvil"}}] run function minecraft:gameplay/item/coin/summon_coin
-execute as @e[type=item,nbt={Item: {id: "minecraft:iron_nugget"}}] at @s if entity @e[distance=..0.7,type=falling_block,nbt={BlockState:{Name: "minecraft:chipped_anvil"}}] run function minecraft:gameplay/item/coin/summon_coin
-execute as @e[type=item,nbt={Item: {id: "minecraft:iron_nugget"}}] at @s if entity @e[distance=..0.7,type=falling_block,nbt={BlockState:{Name: "minecraft:damaged_anvil"}}] run function minecraft:gameplay/item/coin/summon_coin
-execute as @e[type=item,nbt={Item: {id: "minecraft:iron_nugget",tag:{Tags:["coin"]}},PickupDelay:40s}] as @s[tag=!summon_coin] at @s if entity @p[predicate=!is_sneaking] run function minecraft:gameplay/item/coin/use_coin
