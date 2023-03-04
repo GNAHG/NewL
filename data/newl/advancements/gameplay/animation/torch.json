@@ -1,0 +1,27 @@
+{
+    "parent": "newl:gameplay/root",
+    "criteria": {
+        "torch": {
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "torch"
+                            ]
+                        }
+                    }
+                }
+            },
+            "trigger": "location"
+        }
+    },
+    "requirements": [
+        [
+            "torch"
+        ]
+    ],
+    "rewards": {
+        "function": "newl:gameplay/animation/torch"
+    }
+}

@@ -1,0 +1,1 @@
+execute anchored eyes run function newl:ray/entity/tnt/tnt_dispenserray

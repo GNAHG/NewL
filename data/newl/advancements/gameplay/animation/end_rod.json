@@ -1,0 +1,27 @@
+{
+    "parent": "newl:gameplay/root",
+    "criteria": {
+        "end_rod": {
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "end_rod"
+                            ]
+                        }
+                    }
+                }
+            },
+            "trigger": "location"
+        }
+    },
+    "requirements": [
+        [
+            "end_rod"
+        ]
+    ],
+    "rewards": {
+        "function": "newl:gameplay/animation/end_rod"
+    }
+}

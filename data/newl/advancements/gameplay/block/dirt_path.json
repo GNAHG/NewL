@@ -1,0 +1,27 @@
+{
+    "parent": "newl:gameplay/root",
+    "criteria": {
+        "dirt_path": {
+            "conditions": {
+                "player": {
+                    "stepping_on": {
+                        "block": {
+                            "blocks": [
+                                "dirt_path"
+                            ]
+                        }
+                    }
+                }
+            },
+            "trigger": "tick"
+        }
+    },
+    "requirements": [
+        [
+            "dirt_path"
+        ]
+    ],
+    "rewards": {
+        "function": "newl:gameplay/block/dirt_path"
+    }
+}

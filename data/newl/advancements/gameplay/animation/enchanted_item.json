@@ -1,0 +1,16 @@
+{
+    "parent": "newl:gameplay/root",
+    "criteria": {
+        "enchanted_item": {
+            "trigger": "enchanted_item"
+        }
+    },
+    "requirements": [
+        [
+            "enchanted_item"
+        ]
+    ],
+    "rewards": {
+        "function": "newl:gameplay/animation/enchanted_item"
+    }
+}

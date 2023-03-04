@@ -1,1 +1,0 @@
-execute as @e[tag=led] at @s unless block ~ ~1 ~ #fences run kill @s

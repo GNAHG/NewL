@@ -1,0 +1,27 @@
+{
+    "parent": "newl:gameplay/root",
+    "criteria": {
+        "redstone_torch": {
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "redstone_torch"
+                            ]
+                        }
+                    }
+                }
+            },
+            "trigger": "location"
+        }
+    },
+    "requirements": [
+        [
+            "redstone_torch"
+        ]
+    ],
+    "rewards": {
+        "function": "newl:gameplay/animation/redstone_torch"
+    }
+}

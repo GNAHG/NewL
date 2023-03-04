@@ -1,0 +1,26 @@
+{
+    "parent": "newl:gameplay/root",
+    "criteria": {
+        "gifi": {
+            "conditions": {
+                "entity": {
+                    "type": "glow_item_frame"
+                },
+                "item": {
+                    "items": [
+                        "water_bucket"
+                    ]
+                }
+            },
+            "trigger": "player_interacted_with_entity"
+        }
+    },
+    "requirements": [
+        [
+            "gifi"
+        ]
+    ],
+    "rewards": {
+        "function": "newl:ray/start/entity/item_frame/gifiray"
+    }
+}

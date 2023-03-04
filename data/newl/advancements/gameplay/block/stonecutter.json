@@ -1,0 +1,27 @@
+{
+    "parent": "newl:gameplay/root",
+    "criteria": {
+        "stonecutter": {
+            "conditions": {
+                "player": {
+                    "stepping_on": {
+                        "block": {
+                            "blocks": [
+                                "stonecutter"
+                            ]
+                        }
+                    }
+                }
+            },
+            "trigger": "location"
+        }
+    },
+    "requirements": [
+        [
+            "stonecutter"
+        ]
+    ],
+    "rewards": {
+        "function": "newl:gameplay/block/stonecutter"
+    }
+}

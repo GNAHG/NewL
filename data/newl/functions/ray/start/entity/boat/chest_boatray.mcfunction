@@ -1,0 +1,1 @@
+execute if entity @e[distance=..5,type=boat] anchored eyes run function newl:ray/entity/boat/chest_boatray

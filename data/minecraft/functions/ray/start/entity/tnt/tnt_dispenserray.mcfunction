@@ -1,1 +1,0 @@
-execute anchored eyes run function ray/entity/tnt/tnt_dispenserray

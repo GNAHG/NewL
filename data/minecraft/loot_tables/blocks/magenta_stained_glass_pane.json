@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:block",
+  "type": "block",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -8,15 +8,15 @@
           "type": "alternatives",
           "children": [
             {
-              "type": "minecraft:item",
-              "name": "minecraft:magenta_stained_glass_pane",
+              "type": "item",
+              "name": "magenta_stained_glass_pane",
               "conditions": [
                 {
-                  "condition": "minecraft:match_tool",
+                  "condition": "match_tool",
                   "predicate": {
                     "enchantments": [
                       {
-                        "enchantment": "minecraft:silk_touch",
+                        "enchantment": "silk_touch",
                         "levels": {
                           "min": 1
                         }
@@ -27,7 +27,7 @@
               ]
             },
             {
-              "type": "minecraft:item",
+              "type": "item",
               "conditions": [
                 {
                   "chances": [
@@ -36,11 +36,11 @@
                     0.65,
                     0.75
                   ],
-                  "condition": "minecraft:table_bonus",
-                  "enchantment": "minecraft:fortune"
+                  "condition": "table_bonus",
+                  "enchantment": "fortune"
                 }
               ],
-              "name": "minecraft:glass_pane"
+              "name": "glass_pane"
             }
           ]
         }

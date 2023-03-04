@@ -1,0 +1,72 @@
+{
+    "parent": "newl:gameplay/root",
+    "criteria": {
+        "tnt_dispenser": {
+            "conditions": {
+                "item": {
+                    "items": [
+                        "spyglass"
+                    ]
+                },
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "looking_at": {
+                                    "type": "tnt"
+                                }
+                            },
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "spyglass"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "mainhand": {
+                                        "nbt": "{Tags:[\"loaded\"]}"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "offhand": {
+                                        "nbt": "{Tags:[\"loaded\"]}"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "using_item"
+        }
+    },
+    "requirements": [
+        [
+            "tnt_dispenser"
+        ]
+    ],
+    "rewards": {
+        "function": "newl:ray/start/entity/tnt/tnt_dispenserray"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#newl:glass_pane",
+        "#newl:glass_block"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "parent": "newl:gameplay/root",
+    "criteria": {
+        "player_leash_knot": {
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[\"entity_leash_knot_choosing\"]}"
+                }
+            },
+            "trigger": "location"
+        }
+    },
+    "requirements": [
+        [
+            "player_leash_knot"
+        ]
+    ],
+    "rewards": {
+        "function": "newl:gameplay/entity/leash_knot/player_leash_knot"
+    }
+}

@@ -1,0 +1,1 @@
+execute anchored eyes run function newl:ray/entity/leash_knot/leash_knotray

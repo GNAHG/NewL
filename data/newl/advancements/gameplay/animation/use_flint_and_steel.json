@@ -1,0 +1,23 @@
+{
+    "parent": "newl:gameplay/root",
+    "criteria": {
+        "use_flint_and_steel": {
+            "conditions": {
+                "item": {
+                    "items": [
+                        "flint_and_steel"
+                    ]
+                }
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "use_flint_and_steel"
+        ]
+    ],
+    "rewards": {
+        "function": "newl:gameplay/animation/use_flint_and_steel"
+    }
+}

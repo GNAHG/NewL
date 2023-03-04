@@ -1,0 +1,42 @@
+{
+    "parent": "newl:gameplay/root",
+    "criteria": {
+        "redstone_block": {
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "redstone_block"
+                            ]
+                        }
+                    }
+                }
+            },
+            "trigger": "location"
+        },
+        "redstone": {
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "redstone"
+                            ]
+                        }
+                    }
+                }
+            },
+            "trigger": "location"
+        }
+    },
+    "requirements": [
+        [
+            "redstone_block",
+            "redstone"
+        ]
+    ],
+    "rewards": {
+        "function": "newl:gameplay/animation/redstone_block"
+    }
+}

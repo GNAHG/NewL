@@ -1,1 +1,0 @@
-execute anchored eyes run function ray/entity/leash_knot/leash_knotedray

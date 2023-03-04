@@ -1,0 +1,67 @@
+{
+    "parent": "newl:gameplay/root",
+    "criteria": {
+        "named_name_tag": {
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "cartography_table"
+                        ]
+                    }
+                },
+                "item": {
+                    "items": [
+                        "name_tag"
+                    ],
+                    "nbt": "{CustomModelData:1}"
+                },
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "alternative",
+                            "terms": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "offhand": {
+                                                "items": [
+                                                    "air",
+                                                    "name_tag",
+                                                    "player_head"
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "offhand": {
+                                                "nbt": "{Tags:[\"named\"]}"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "trigger": "item_used_on_block"
+        }
+    },
+    "requirements": [
+        [
+            "named_name_tag"
+        ]
+    ],
+    "rewards": {
+        "function": "newl:gameplay/named_name_tag"
+    }
+}

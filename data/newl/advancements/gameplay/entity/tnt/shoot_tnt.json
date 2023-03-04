@@ -1,0 +1,36 @@
+{
+    "parent": "newl:gameplay/root",
+    "criteria": {
+        "shoot_tnt": {
+            "conditions": {
+                "item": {
+                    "items": [
+                        "spyglass"
+                    ],
+                    "nbt": "{Tags:[\"loaded\"]}"
+                },
+                "player": {
+                    "flags": {
+                        "is_sneaking": true
+                    },
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "spyglass"
+                            ]
+                        }
+                    }
+                }
+            },
+            "trigger": "using_item"
+        }
+    },
+    "requirements": [
+        [
+            "shoot_tnt"
+        ]
+    ],
+    "rewards": {
+        "function": "newl:gameplay/entity/tnt/shoot_tnt"
+    }
+}
