@@ -3,42 +3,62 @@
     "criteria": {
         "coin": {
             "conditions": {
-                "location": {
-                    "block": {
-                        "tag": "anvil"
-                    }
-                },
                 "player": [
                     {
-                        "condition": "inverted",
-                        "term": {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "equipment": {
-                                    "mainhand": {
-                                        "nbt": "{Tags:[\"coin\"]}"
-                                    }
-                                }
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "tag":"pressure_plates"
                             }
                         }
                     },
                     {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
+                        "condition": "location_check",
+                        "offsetY": -1,
                         "predicate": {
-                            "equipment": {
-                                "mainhand": {
-                                    "items": [
-                                        "iron_nugget"
-                                    ]
-                                }
+                            "block": {
+                                "blocks": [
+                                    "white_stained_glass"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "iron_block"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "location_check",
+                        "offsetY": -3,
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "white_stained_glass"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "location_check",
+                        "offsetY": -4,
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "piston"
+                                ]
                             }
                         }
                     }
                 ]
             },
-            "trigger": "item_used_on_block"
+            "trigger": "location"
         }
     },
     "requirements": [

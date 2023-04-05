@@ -4,6 +4,7 @@ effect give @e[tag=entity_leash_knot_bat] invisibility infinite 7 true
 data modify entity @e[tag=entity_marker_leash_knot,limit=1] Leash.UUID set from entity @e[tag=entity_leash_knot_first,limit=1] UUID
 summon leash_knot ~ ~ ~ {Tags:["entity_leash_knot_second"],Invulnerable:true}
 execute positioned as @e[tag=entity_leash_knot_second,limit=1] run tp @e[tag=entity_marker_leash_knot] ~ ~-0.4 ~-0.15
+function newl:particle/block
 tag @e[tag=entity_marker_leash_knot] remove entity_marker_leash_knot
 tag @e[tag=entity_leash_knot_first] remove entity_leash_knot_first
 tag @e[tag=entity_leash_knot_second] remove entity_leash_knot_second
