@@ -1,0 +1,64 @@
+{
+    "parent": "newl:gameplay/root",
+    "criteria": {
+        "summon_dummy": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "location_check",
+                        "offsetY": -1,
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "carved_pumpkin"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "crying_obsidian"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "location_check",
+                        "offsetY": -3,
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "warped_wart_block"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "location_check",
+                        "offsetY": -4,
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "crafting_table"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "location"
+        }
+    },
+    "requirements": [
+        [
+            "summon_dummy"
+        ]
+    ],
+    "rewards": {
+        "function": "newl:gameplay/entity/dummy/summon_dummy_xp"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "function": "set_name",
+    "entity": "this",
+    "name": {
+        "text": "",
+        "color": "green",
+        "extra": [
+            {
+                "score": {
+                    "objective": "newldisplay1",
+                    "name": "@s"
+                }
+            },
+            ".",
+            {
+                "score": {
+                    "objective": "newldisplay2",
+                    "name": "@s"
+                }
+            }
+        ]
+    }
+}

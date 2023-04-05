@@ -8,13 +8,6 @@
                 }
             },
             "trigger": "player_interacted_with_entity"
-        },        "kill_leash_knot_": {
-            "conditions": {
-                "entity": {
-                    "type": "leash_knot"
-                }
-            },
-            "trigger": "player_interacted_with_entity"
         }
     },
     "requirements": [
